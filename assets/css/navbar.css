@@ -1,0 +1,103 @@
+nav.row {
+    border-radius: 30px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    overflow: hidden;
+    position: fixed;
+    left: 80;
+    right: 80;
+    width: auto;
+    z-index: 12;
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    line-height: 1.5em;
+    font-family: "Shadows Into Light", Arial, Helvetica, sans-serif;
+    color: var(--gold);
+    font-size: 2em;
+}
+
+ul {
+    position: relative;
+    left: 0;
+    transform: translate(0%, 30%);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    li {
+        padding: 0 0em 0em;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+
+        a {
+            transition: .3s;
+            color: #fff;
+            font-family: "IBM Plex Mono", monospace;
+            text-decoration: none;
+            font-weight: 300;
+        }
+    }
+
+    li:before {
+        content: " ";
+        position: absolute;
+        inset: calc(100% - 0.5px) 0 0 0;
+        background: var(--white);
+        scale: 0 2;
+        transition: .3s, translate 0s .3s;
+    }
+
+}
+
+ul li:hover:before {
+    scale: 1;
+}
+
+ul li:hover:before {
+    translate: 0;
+    transition: .3s;
+}
+
+ul:hover li:has(~ li:hover):before {
+    translate: 100% 0;
+    transition: 0.2s 0.2s, scale 0s 0.4s;
+}
+
+ul:hover li:hover~li:before {
+    translate: -100% 0;
+    transition: 0.2s 0.2s, scale 0s 0.4s;
+}
+
+
+.col-1 {
+
+    min-width: 100px;
+
+    .btn-primary {
+        line-height: 1.5em;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: none;
+        border-radius: 30px;
+        margin: 7px auto;
+        font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+        position: absolute;
+    }
+}
+
+.col-5 {
+    margin: 0;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
