@@ -67,92 +67,6 @@ body {
         }
     }
 
-    /* Banner */
-    section#banner {
-        backdrop-filter: blur(80px);
-
-        & .row {
-
-            & .col-6 {
-                width: 100%;
-            }
-
-            & #text {
-                width: 100%;
-                margin-top: 100px;
-                margin-left: 0;
-            }
-
-            & #bubble {
-                height: 650px;
-
-                & .blob {
-                    z-index: -1;
-                    width: 400px;
-                    margin-top: -150;
-                    width: 300px;
-
-                    & :nth-child(2) {
-                        filter: blur(10px);
-                    }
-                }
-            }
-        }
-
-        & .titulo {
-            margin: 0;
-            overflow: hidden;
-
-            & h1 {
-                font-size: 2em;
-            }
-
-            & h2 p#cargo {
-                display: inline-block;
-            }
-
-        }
-    }
-
-    /* Sobre mim */
-    #sobre-mim {
-        & .row {
-
-            & #descricao {
-                width: 100%;
-                left: 0;
-                height: 740px;
-                padding: 50px;
-                padding-top: 10px;
-                background: rgba(0, 0, 0, 0.8);
-                backdrop-filter: blur(3px);
-
-                & h2 {
-                    font-size: 2em;
-                }
-
-                & p {
-                    font-size: .9em;
-                }
-            }
-
-            & #galeria {
-                min-width: 1000px;
-                columns: 150px;
-                rotate: 10deg;
-                margin-top: -100px;
-                z-index: -3;
-                position: absolute;
-
-                img.pics {
-                    width: 300px;
-                    margin-bottom: .4em;
-                }
-            }
-
-
-        }
-    }
 }
 
 /* mobile --> tablet */
@@ -187,57 +101,7 @@ body {
         }
     }
 
-    /* Banner */
-    section#banner {
-
-        & .row {
-
-            & .col-6 {
-                width: 100%;
-            }
-
-            & #text.col-6 {
-                width: 100%;
-                margin-top: 100px;
-                margin-left: 0;
-            }
-        }
-
-        & div.titulo {
-
-            & h1 {
-                font-size: 1em;
-                color: #750303;
-            }
-
-            & h2 p#cargo {
-                display: inline-block;
-            }
-
-        }
-    }
-
-    /* Sobre mim */
-    #sobre-mim {
-        & .row #descricao {
-            width: 100%;
-            left: 0;
-            height: 700px;
-            padding: 50px;
-            background: linear-gradient(to right, rgba(0, 0, 0, 0.5), black);
-            backdrop-filter: blur(5px);
-
-            & h2 {
-                font-family: 'Italiana';
-                font-weight: 700;
-            }
-
-            & p {
-                font-family: "IBM Plex Mono", monospace;
-                font-weight: 400;
-            }
-        }
-    }
+    
 }
 
 /* tablet --> sml screen */
@@ -261,66 +125,7 @@ body {
         }
     }
 
-    /* Banner */
-    section#banner {
-        backdrop-filter: blur(80px);
-
-        & .row {
-
-            & .col-6 {
-                margin: 0;
-            }
-
-            & #text {
-                width: 50%;
-                z-index: 3;
-                padding: none;
-            }
-
-            & #bubble {
-                & .blob {
-                    z-index: -1;
-                    width: 450px;
-
-                    & :nth-child(2) {
-                        filter: blur(10px);
-                    }
-                }
-            }
-        }
-
-        & .titulo {
-
-            & h1 {
-                font-size: 1.7em;
-            }
-
-            & h2 {
-                font-size: 1.9em;
-            }
-
-        }
-    }
-
-    /* Sobre mim */
-    #sobre-mim {
-        & .row #descricao {
-            width: 100%;
-            left: 0;
-            height: 700px;
-            padding: 50px;
-            background: linear-gradient(to right, rgba(0, 0, 0, 0.5), black);
-            backdrop-filter: blur(5px);
-
-            & h2 {
-                font-size: 3em;
-            }
-
-            & p {
-                font-size: 1.2em;
-            }
-        }
-    }
+    
 }
 
 /* sml screen --> L screen*/
@@ -337,96 +142,10 @@ body {
 
     }
 
-    /* Banner */
-    section#banner {
-        backdrop-filter: blur(80px);
-
-        & .row {
-
-            & .col-6 {
-                margin: 0;
-            }
-
-            & #text {
-                width: 50%;
-                z-index: 3;
-                padding: none;
-            }
-
-            & #bubble {
-                & .blob {
-                    z-index: -1;
-                    width: 450px;
-
-                    & :nth-child(2) {
-                        filter: blur(10px);
-                    }
-                }
-            }
-        }
-
-        & .titulo {
-
-            & h1 {
-                font-size: 2.3em;
-            }
-
-            & h2 {
-                font-size: 1.8em;
-            }
-
-        }
-    }
-
-    /* Sobre mim */
-    #sobre-mim {
-        & .row #descricao {
-            left: 30%;
-            width: 70%;
-            background: linear-gradient(to right, rgba(0, 0, 0, 0.84), black, black, black, black);
-        }
-    }
 }
 
 /* XL screen */
 @media (min-width: 1200px) {
 
-    /* Banner */
-    section#banner {
-        backdrop-filter: blur(80px);
 
-        & .row {
-
-            & .col-6 {
-                margin: 0;
-            }
-
-            & #text {
-                width: 50%;
-                z-index: 3;
-                padding: none;
-            }
-        }
-
-        & .titulo {
-
-            & h1 {
-                font-size: 3.4em;
-            }
-
-            & h2 {
-                font-size: 2.5em;
-            }
-
-        }
-    }
-
-    /* Sobre mim */
-    #sobre-mim {
-        & .row #descricao {
-            left: 50%;
-            width: 50%;
-            background: linear-gradient(to right, rgba(0, 0, 0, 0.84), black, black, black, black);
-        }
-    }
 }
