@@ -5,24 +5,20 @@
 }
 
 body {
-    background-color: var(--full-black);
+    background-color: var(--dark-gray);
     padding: 0;
     margin: 0;
     color: var(--white);
 }
 
 :root {
-    --gold: #E8B950;
-    --orange: #E53712;
-    --bege: #B85B56;
-    --light-brown: #857252;
-    --brown: #750303;
-    --dark-brown: #270000;
-    --gray: #E7E6F4;
+    --light-blue: #48A2B2;
+    --blue: #2D6469;
+    --dark-blue: #184D51;
+    --gray: #0B363D;
+    --dark-gray: #032527;
     --white: #fff;
-    --black: #1D1C20;
-    --full-black: #202020;
-    --transparent-black: rgba(0, 0, 0, 0.2)
+    --black: #020305;
 }
 
 /* mobile */

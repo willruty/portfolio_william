@@ -17,7 +17,7 @@ nav.row {
     color: white;
     line-height: 1.5em;
     font-family: "Shadows Into Light", Arial, Helvetica, sans-serif;
-    color: var(--gold);
+    color: var(--light-blue);
     font-size: 2em;
 }
 
@@ -52,7 +52,7 @@ ul {
         content: " ";
         position: absolute;
         inset: calc(100% - 0.5px) 0 0 0;
-        background: var(--white);
+        background: var(--light-blue);
         scale: 0 2;
         transition: .3s, translate 0s .3s;
     }
