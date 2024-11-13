@@ -12,13 +12,10 @@ nav.row {
     z-index: 12;
 }
 
-#logo {
-    text-decoration: none;
-    color: white;
-    line-height: 1.5em;
-    font-family: "Shadows Into Light", Arial, Helvetica, sans-serif;
-    color: var(--light-blue);
-    font-size: 2em;
+#logo img{
+    height: 40px;
+    width: 50px;
+    margin-top: 5px;
 }
 
 ul {
