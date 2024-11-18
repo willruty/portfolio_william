@@ -1,0 +1,74 @@
+#sobre-mim {
+    margin: 100px 0px;
+    padding-top: 30px;
+
+    & .titulo-sobre-mim {
+        width: 20%;
+        background: var(--gray);
+        border: 10px solid var(--dark-gray);
+        border-radius: 30px;
+        position: relative;
+        top: 30;
+        left: -20;
+        z-index: 2;
+
+        & h1 {
+            text-align: center;
+            color: var(--light-blue);
+            font-size: 2em;
+        }
+    }
+
+    & .conteudo-sobre-mim {
+        background: linear-gradient(45deg, var(--dark-blue), var(--blue), var(--light-blue));
+        backdrop-filter: blur(20px);
+        padding: 30px;
+        border-radius: 30px;
+        z-index: -1;
+
+
+        & .row {
+
+            & .col-12#texto-sobre-mim {
+                align-content: center;
+                text-align: center;
+                font-size: 1.3em;
+
+                & button {
+                    border: none;
+                    background-color: var(--gray);
+                    transition: all .3s;
+                    border-radius: 30px;
+                    padding: 10px;
+
+                    &:hover{
+                        background-color: var(--dark-gray);
+                        transition: all .3s;
+                    }
+                }
+            }
+
+            & .col-12#timeline {
+
+                & ol {
+
+                    & li {
+
+                        & h3 {
+                            color: var(--gray);
+                            font-size: 1.5em;
+                        }
+
+                        & p {
+                            color: var(--white);
+                        }
+                    }
+
+
+                }
+
+            }
+        }
+    }
+
+}

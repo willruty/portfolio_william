@@ -12,9 +12,8 @@ body {
 }
 
 #conteudo {
-    margin-top: 50px;
+    padding-top: 50px;
     width: 100%;
-    height: 100%;
     padding: 0;
     font-family: "Orbit", sans-serif;
 }
@@ -38,6 +37,10 @@ h3 {
 /* mobile */
 @media (min-width: 320px) and (max-width: 425.98px) {
 
+    #conteudo {
+        padding-top: 50px;
+    }
+
     /* navbar */
     header nav.row {
         position: absolute;
@@ -83,6 +86,58 @@ h3 {
                 }
             }
         }
+    }
+
+    /* Sobre mim */
+    .container-fluid#sobre-mim {
+        margin: 0px 0px;
+        padding-top: 35px;
+
+        & div.titulo-sobre-mim {
+            width: 70%;
+
+            & h1 {
+                font-size: 2em;
+            }
+        }
+
+        & .conteudo-sobre-mim {
+
+            & .row {
+                width: 100%;
+
+                & .col-12#texto-sobre-mim {
+                    font-size: 1.1em;
+                    margin-bottom: 30px;
+                    margin-top: 20px;
+                }
+
+                & .col-12#timeline {
+                    width: 100%;
+                    padding: 0;
+
+                    & ol {
+                        margin: 0;
+
+                        & li {
+
+                            & h3 {
+                                color: var(--gray);
+                                font-size: 1.5em;
+                            }
+
+                            & p {
+                                color: var(--white);
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+
     }
 
 }
@@ -90,6 +145,10 @@ h3 {
 /* mobile --> tablet */
 @media (min-width: 426px) and (max-width: 767.98px) {
 
+    #conteudo {
+        margin-top: 60px;
+    }
+
     /* navbar */
     header nav.row {
         position: absolute;
@@ -137,6 +196,57 @@ h3 {
         }
     }
 
+    /* Sobre mim */
+    .container-fluid#sobre-mim {
+        margin: 0px 0px;
+        padding-top: 35px;
+
+        & div.titulo-sobre-mim {
+            width: 70%;
+
+            & h1 {
+                font-size: 2em;
+            }
+        }
+
+        & .conteudo-sobre-mim {
+
+            & .row {
+                width: 100%;
+
+                & .col-12#texto-sobre-mim {
+                    font-size: 1.1em;
+                    margin-bottom: 30px;
+                    margin-top: 20px;
+                }
+
+                & .col-12#timeline {
+                    width: 100%;
+                    padding: 0;
+
+                    & ol {
+                        margin: 0;
+
+                        & li {
+
+                            & h3 {
+                                color: var(--gray);
+                                font-size: 1.5em;
+                            }
+
+                            & p {
+                                color: var(--white);
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+
+    }
 
 }
 
@@ -207,6 +317,58 @@ h3 {
         }
     }
 
+    /* Sobre mim */
+    .container-fluid#sobre-mim {
+        margin: 0px 0px;
+        padding-top: 35px;
+
+        & div.titulo-sobre-mim {
+            width: 45%;
+
+            & h1 {
+                font-size: 2em;
+            }
+        }
+
+        & .conteudo-sobre-mim {
+
+            & .row {
+                width: 100%;
+
+                & .col-12#texto-sobre-mim {
+                    font-size: 1.1em;
+                    margin-bottom: 30px;
+                    margin-top: 20px;
+                }
+
+                & .col-12#timeline {
+                    width: 100%;
+                    padding: 0;
+
+                    & ol {
+                        margin: 0;
+
+                        & li {
+
+                            & h3 {
+                                color: var(--gray);
+                                font-size: 1.5em;
+                            }
+
+                            & p {
+                                color: var(--white);
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+
+    }
+
 
 }
 
@@ -268,13 +430,65 @@ h3 {
         }
     }
 
+    /* Sobre mim */
+    .container-fluid#sobre-mim {
+        margin: 0px 0px;
+        padding-top: 35px;
+
+        & div.titulo-sobre-mim {
+            width: 45%;
+
+            & h1 {
+                font-size: 2em;
+            }
+        }
+
+        & .conteudo-sobre-mim {
+
+            & .row {
+                width: 100%;
+
+                & .col-12#texto-sobre-mim {
+                    font-size: 1.1em;
+                    margin-bottom: 30px;
+                    margin-top: 20px;
+                }
+
+                & .col-12#timeline {
+                    width: 100%;
+                    padding: 0;
+
+                    & ol {
+                        margin: 0;
+
+                        & li {
+
+                            & h3 {
+                                color: var(--gray);
+                                font-size: 1.5em;
+                            }
+
+                            & p {
+                                color: var(--white);
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+
+    }
+
 }
 
 /* XL screen */
 @media (min-width: 1200px) {
 
     #conteudo {
-        margin-top: 60px;
+        padding-top: 90px;
     }
 
     /* Banner */
@@ -316,5 +530,48 @@ h3 {
                 }
             }
         }
+    }
+
+    /* Sobre mim */
+    #sobre-mim {
+        margin: 100px 0px;
+        padding-top: 30px;
+
+        & .titulo-sobre-mim {
+            width: 70%;
+            background: var(--gray);
+            border: 10px solid var(--dark-gray);
+            border-radius: 30px;
+            position: relative;
+            top: 30;
+            left: -20;
+
+            & h1 {
+                text-align: center;
+                color: var(--light-blue);
+                font-size: 2em;
+            }
+        }
+
+        & .conteudo-sobre-mim {
+            background: var(--dark-blue);
+            padding: 60px 30px;
+            border-radius: 30px;
+
+
+            & .row {
+                align-content: center;
+
+                & .col-12#texto-sobre-mim {
+                    width: 50%;
+                }
+
+                & .col-12#timeline {
+                    width: 50%;
+                }
+
+            }
+        }
+
     }
 }
