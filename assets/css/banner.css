@@ -15,7 +15,7 @@
             border-radius: 100%;
             box-shadow: 0 0 20px 10px var(--dark-blue),
                 0 0 20px rgba(0, 0, 0, 0.3);
-            margin: 10px;
+            margin: 30px auto;
         }
 
         & #titulo {

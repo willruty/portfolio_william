@@ -1,8 +1,8 @@
 #habilidades {
-    margin: 100px 0px;
+    margin: 100px 0px 0px 0px;
     padding-top: 30px;
 
-    & .titulo-habilidades {
+    & #titulo-habilidades {
         width: 20%;
         background: var(--gray);
         border: 10px solid var(--dark-gray);
@@ -31,7 +31,7 @@
         & .row {
             width: 100%;
             margin: 0;
-
+            
             & .col-12#texto-habilidades {
                 align-content: center;
                 text-align: center;
@@ -39,35 +39,68 @@
 
                 & button {
                     border: none;
-                    background-color: var(--gray);
+                    background-color: var(--dark-gray);
                     transition: all .3s;
                     border-radius: 30px;
                     padding: 10px;
+                    color: var(--blue);
 
-                    &:hover{
-                        background-color: var(--dark-gray);
+                    &:hover {
+                        background-color: var(--gray);
                         transition: all .3s;
                     }
                 }
             }
 
             & .col-12#cards-habilidades {
-                display: flexbox;
                 align-content: left;
                 justify-content: space-around;
-                
+                margin-top: 45px;
+
+                & a {
+                    overflow: hidden;
+                }
+
+                & #aprendidos {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    height: 400px;
+                    columns: 3;
+
+                    & h3 {
+                        position: absolute;
+                        margin-top: -45px;
+                        color: var(--dark-gray);
+                    }
+                }
+
+                & #aprendendo {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    margin-top: 35px;
+
+                    & h3 {
+                        position: absolute;
+                        margin-top: -45px;
+                        color: var(--dark-gray);
+                    }
+                }
+
                 & div.card {
                     width: 100px;
+                    min-width: 100px;
                     height: 100px;
                     clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 20%);
-                    background-color: var(--dark-gray);
+                    background: linear-gradient(var(--gray), var(--gray), var(--dark-gray));
                     border-bottom: 2px solid var(--light-blue);
                     border-radius: 0;
 
                     align-items: center;
                     padding: 15px;
-                    margin: 15px;
                     float: left;
+                    transition: all .3s;
 
                     & h4 {
                         color: var(--light-blue);
@@ -78,6 +111,11 @@
                         color: var(--light-blue);
                         font-size: 2em;
                         margin: auto;
+                    }
+
+                    &:hover {
+                        scale: 1.1;
+                        transition: all .3s;
                     }
                 }
             }

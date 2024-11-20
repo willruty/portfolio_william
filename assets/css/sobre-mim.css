@@ -36,13 +36,14 @@
 
                 & button {
                     border: none;
-                    background-color: var(--gray);
+                    background-color: var(--dark-gray);
                     transition: all .3s;
                     border-radius: 30px;
                     padding: 10px;
+                    color: var(--blue);
 
                     &:hover{
-                        background-color: var(--dark-gray);
+                        background-color: var(--gray);
                         transition: all .3s;
                     }
                 }

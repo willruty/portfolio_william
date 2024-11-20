@@ -22,7 +22,7 @@ body {
 h1,
 h2,
 h3,
-h4, 
+h4,
 h5 {
     overflow-y: hidden;
 }
@@ -36,6 +36,20 @@ h5 {
     --dark-gray: #032527;
     --white: #fff;
     --black: #020305;
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--light-blue);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--blue);
 }
 
 /* mobile */
@@ -135,7 +149,7 @@ h5 {
         margin: 0px 0px;
         padding-top: 35px;
 
-        & div.titulo-habilidades {
+        & div#titulo-habilidades {
             width: 70%;
 
             & h1 {
@@ -262,6 +276,57 @@ h5 {
 
     }
 
+    /* Habilidades */
+    .container-fluid#habilidades {
+        margin-top: 40px;
+
+        & .conteudo-habilidades {
+            padding: 30px;
+
+            & #titulo-habilidades {
+                width: 70%;
+
+                & h1 {
+                    font-size: 2em;
+                }
+            }
+
+            & .row {
+                width: 100%;
+                margin: 0;
+
+                & .col-12#texto-habilidades {
+                    font-size: 1em;
+                    padding-top: 30px;
+
+                    & button {
+                        margin: -10px 0px 15px 0px;
+                    }
+                }
+
+                & .col-12#cards-habilidades {
+                    margin-top: 45px;
+
+                    & #aprendidos {
+                        height: auto;
+
+                        & a {
+                            margin: 15px 0px;
+                        }
+                    }
+
+                    & #aprendendo {
+                        margin-top: 45px;
+
+                        & h3 {
+                            margin-top: -45px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 /* tablet --> sml screen */
@@ -298,7 +363,7 @@ h5 {
             width: 100%;
             padding: 5px;
 
-            & #perfil {
+            & .col-12#perfil {
                 height: 300px;
                 min-width: 300px;
                 width: 300px;
@@ -365,6 +430,68 @@ h5 {
 
     }
 
+    /* Habilidades */
+    .container-fluid#habilidades {
+        margin-top: 40px;
+
+        & .conteudo-habilidades {
+
+            & #titulo-habilidades {
+                width: 50%;
+
+                & h1 {
+                    font-size: 2em;
+                }
+            }
+
+            & .row {
+                width: 100%;
+                margin: 0;
+
+                & .col-12#texto-habilidades {
+                    font-size: 1.2em;
+                    padding-top: 30px;
+                    width: 80%;
+                    margin: auto;
+
+                    & button {
+                        margin: -10px 0px 15px 0px;
+                    }
+                }
+
+                & .col-12#cards-habilidades {
+                    margin-top: 45px;
+                    width: 80%;
+                    margin: 45px auto 0px auto;
+
+                    & #aprendidos {
+                        height: auto;
+                        justify-content: flex-start;
+
+                        & a {
+                            margin: 15px auto;
+                        }
+                    }
+
+                    & #aprendendo {
+                        margin-top: 45px;
+                        justify-content: flex-start;
+
+                        & h3 {
+                            margin-top: -45px;
+                        }
+
+                        & a {
+                            margin: 15px auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* Projetos */
+    
 
 }
 
@@ -394,10 +521,10 @@ h5 {
         & .row {
             padding: 5px;
 
-            & #perfil {
-                height: 300px;
-                min-width: 300px;
-                width: 300px;
+            & .col-12#perfil {
+                height: 350px;
+                min-width: 350px;
+                width: 350px;
                 margin: 10px;
             }
 
@@ -432,7 +559,7 @@ h5 {
         padding-top: 60px;
 
         & div.titulo-sobre-mim {
-            width: 45%;
+            width: 30%;
 
             & h1 {
                 font-size: 2em;
@@ -465,6 +592,67 @@ h5 {
 
     }
 
+    /* Habilidades */
+    .container-fluid#habilidades {
+        margin-top: 40px;
+
+        & .conteudo-habilidades {
+
+            & #titulo-habilidades {
+                width: 30%;
+
+                & h1 {
+                    font-size: 2em;
+                }
+            }
+
+            & .row {
+                width: 100%;
+                margin: 0;
+
+                & .col-12#texto-habilidades {
+                    font-size: 1.2em;
+                    padding-top: 30px;
+                    width: 50%;
+                    margin: auto;
+                    order: 2;
+
+                    & button {
+                        margin: -10px 0px 15px 0px;
+                    }
+                }
+
+                & .col-12#cards-habilidades {
+                    order: 1;
+                    margin-top: 45px;
+                    width: 50%;
+                    margin: 45px auto 0px auto;
+
+                    & #aprendidos {
+                        height: auto;
+                        justify-content: flex-start;
+
+                        & a {
+                            margin: 15px auto;
+                        }
+                    }
+
+                    & #aprendendo {
+                        margin-top: 45px;
+                        justify-content: flex-start;
+
+                        & h3 {
+                            margin-top: -45px;
+                        }
+
+                        & a {
+                            margin: 15px auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* XL screen */
@@ -556,5 +744,73 @@ h5 {
             }
         }
 
+    }
+
+    /* Habilidades */
+    .container-fluid#habilidades {
+        margin-top: 30px;
+        padding-top: 90px;
+
+        & .conteudo-habilidades {
+
+            & #titulo-habilidades {
+                width: 25%;
+
+                & h1 {
+                    font-size: 2em;
+                }
+            }
+
+            & .row {
+                width: 100%;
+                margin: 0;
+
+                & .col-12#texto-habilidades {
+                    font-size: 1.2em;
+                    padding-top: 30px;
+                    width: 50%;
+                    margin: auto;
+                    order: 2;
+
+                    & button {
+                        margin: -10px 0px 15px 0px;
+                    }
+                }
+
+                & .col-12#cards-habilidades {
+                    order: 1;
+                    width: 50%;
+                    align-content: left;
+                    justify-content: space-around;
+
+                    & #aprendidos {
+                        height: auto;
+                        justify-content: space-between;
+                        width: 80%;
+
+                        & a {
+                            margin: 10px;
+                        }
+
+                        & h3 {
+                            margin-left: 0px;
+                        }
+                    }
+
+                    & #aprendendo {
+                        margin-top: 45px;
+                        justify-content: flex-start;
+
+                        & h3 {
+                            margin-top: -45px;
+                        }
+
+                        & a {
+                            margin: 15px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
