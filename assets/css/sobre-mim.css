@@ -20,7 +20,7 @@
     }
 
     & .conteudo-sobre-mim {
-        background: linear-gradient(45deg, var(--dark-blue), var(--blue), var(--light-blue));
+        background: var(--dark-blue);
         backdrop-filter: blur(20px);
         padding: 30px;
         border-radius: 30px;
@@ -48,26 +48,6 @@
                 }
             }
 
-            & .col-12#timeline {
-
-                & ol {
-
-                    & li {
-
-                        & h3 {
-                            color: var(--gray);
-                            font-size: 1.5em;
-                        }
-
-                        & p {
-                            color: var(--white);
-                        }
-                    }
-
-
-                }
-
-            }
         }
     }
 

@@ -1,0 +1,87 @@
+#habilidades {
+    margin: 100px 0px;
+    padding-top: 30px;
+
+    & .titulo-habilidades {
+        width: 20%;
+        background: var(--gray);
+        border: 10px solid var(--dark-gray);
+        border-radius: 30px;
+        position: absolute;
+        top: -30;
+        right: -20;
+        z-index: 2;
+
+        & h1 {
+            text-align: center;
+            color: var(--light-blue);
+            font-size: 2em;
+        }
+    }
+
+    & .conteudo-habilidades {
+        background: var(--dark-blue);
+        backdrop-filter: blur(20px);
+        padding: 30px;
+        border-radius: 30px;
+        z-index: -1;
+        overflow: visible;
+
+
+        & .row {
+            width: 100%;
+            margin: 0;
+
+            & .col-12#texto-habilidades {
+                align-content: center;
+                text-align: center;
+                font-size: 1.3em;
+
+                & button {
+                    border: none;
+                    background-color: var(--gray);
+                    transition: all .3s;
+                    border-radius: 30px;
+                    padding: 10px;
+
+                    &:hover{
+                        background-color: var(--dark-gray);
+                        transition: all .3s;
+                    }
+                }
+            }
+
+            & .col-12#cards-habilidades {
+                display: flexbox;
+                align-content: left;
+                justify-content: space-around;
+                
+                & div.card {
+                    width: 100px;
+                    height: 100px;
+                    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 20%);
+                    background-color: var(--dark-gray);
+                    border-bottom: 2px solid var(--light-blue);
+                    border-radius: 0;
+
+                    align-items: center;
+                    padding: 15px;
+                    margin: 15px;
+                    float: left;
+
+                    & h4 {
+                        color: var(--light-blue);
+                        font-size: 1em;
+                    }
+
+                    & i {
+                        color: var(--light-blue);
+                        font-size: 2em;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+
+}

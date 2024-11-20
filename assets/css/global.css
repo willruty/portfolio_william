@@ -21,7 +21,9 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4, 
+h5 {
     overflow-y: hidden;
 }
 
@@ -29,6 +31,7 @@ h3 {
     --light-blue: #48A2B2;
     --blue: #2D6469;
     --dark-blue: #184D51;
+    --light-gray: #999;
     --gray: #0B363D;
     --dark-gray: #032527;
     --white: #fff;
@@ -108,7 +111,7 @@ h3 {
                 width: 100%;
 
                 & .col-12#texto-sobre-mim {
-                    font-size: 1.1em;
+                    font-size: 1em;
                     margin-bottom: 30px;
                     margin-top: 20px;
                 }
@@ -117,22 +120,46 @@ h3 {
                     width: 100%;
                     padding: 0;
 
-                    & ol {
-                        margin: 0;
+                    & img {
+                        width: 365px;
+                    }
 
-                        & li {
+                }
+            }
+        }
 
-                            & h3 {
-                                color: var(--gray);
-                                font-size: 1.5em;
-                            }
+    }
 
-                            & p {
-                                color: var(--white);
-                            }
-                        }
+    /* Habilidades*/
+    .container-fluid#habilidades {
+        margin: 0px 0px;
+        padding-top: 35px;
 
+        & div.titulo-habilidades {
+            width: 70%;
 
+            & h1 {
+                font-size: 2em;
+            }
+        }
+
+        & .conteudo-habilidades {
+
+            & .row {
+                width: 100%;
+
+                & .col-12#texto-habilidades {
+                    font-size: 1em;
+                    margin-bottom: 30px;
+                    margin-top: 20px;
+                }
+
+                & .col-12#cards-habilidades {
+                    width: 100%;
+                    padding: 0;
+
+                    & img {
+                        width: 365px;
                     }
 
                 }
@@ -216,7 +243,7 @@ h3 {
                 width: 100%;
 
                 & .col-12#texto-sobre-mim {
-                    font-size: 1.1em;
+                    font-size: 1em;
                     margin-bottom: 30px;
                     margin-top: 20px;
                 }
@@ -225,22 +252,8 @@ h3 {
                     width: 100%;
                     padding: 0;
 
-                    & ol {
-                        margin: 0;
-
-                        & li {
-
-                            & h3 {
-                                color: var(--gray);
-                                font-size: 1.5em;
-                            }
-
-                            & p {
-                                color: var(--white);
-                            }
-                        }
-
-
+                    & img {
+                        width: 370px;
                     }
 
                 }
@@ -255,7 +268,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991.98px) {
 
     #conteudo {
-        margin-top: 60px;
+        margin-top: 130px;
     }
 
     /* navbar */
@@ -282,6 +295,7 @@ h3 {
         justify-content: space-around;
 
         & .row {
+            width: 100%;
             padding: 5px;
 
             & #perfil {
@@ -337,33 +351,14 @@ h3 {
                 width: 100%;
 
                 & .col-12#texto-sobre-mim {
-                    font-size: 1.1em;
+                    font-size: 1.2em;
                     margin-bottom: 30px;
-                    margin-top: 20px;
+                    margin-top: 30px;
                 }
 
                 & .col-12#timeline {
                     width: 100%;
                     padding: 0;
-
-                    & ol {
-                        margin: 0;
-
-                        & li {
-
-                            & h3 {
-                                color: var(--gray);
-                                font-size: 1.5em;
-                            }
-
-                            & p {
-                                color: var(--white);
-                            }
-                        }
-
-
-                    }
-
                 }
             }
         }
@@ -377,7 +372,7 @@ h3 {
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
     #conteudo {
-        margin-top: 60px;
+        margin-top: 140px;
     }
 
     /* navbar */
@@ -434,7 +429,7 @@ h3 {
     /* Sobre mim */
     .container-fluid#sobre-mim {
         margin: 0px 0px;
-        padding-top: 35px;
+        padding-top: 60px;
 
         & div.titulo-sobre-mim {
             width: 45%;
@@ -453,28 +448,15 @@ h3 {
                     font-size: 1.1em;
                     margin-bottom: 30px;
                     margin-top: 20px;
+                    width: 50%;
                 }
 
                 & .col-12#timeline {
-                    width: 100%;
+                    width: 50%;
                     padding: 0;
 
-                    & ol {
-                        margin: 0;
-
-                        & li {
-
-                            & h3 {
-                                color: var(--gray);
-                                font-size: 1.5em;
-                            }
-
-                            & p {
-                                color: var(--white);
-                            }
-                        }
-
-
+                    & img {
+                        width: 470px;
                     }
 
                 }
@@ -489,7 +471,7 @@ h3 {
 @media (min-width: 1200px) {
 
     #conteudo {
-        padding-top: 90px;
+        padding-top: 140px;
     }
 
     /* Banner */
@@ -501,9 +483,9 @@ h3 {
             padding: 5px;
 
             & .col-12#perfil {
-                height: 500px;
-                min-width: 500px;
-                width: 500px;
+                height: 400px;
+                min-width: 400px;
+                width: 400px;
                 margin: 15px;
                 margin-left: -30;
             }
