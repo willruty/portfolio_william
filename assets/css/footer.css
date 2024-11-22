@@ -13,13 +13,18 @@
         height: 100%;
 
         & .col-3#imagem-logo {
-            align-content: center;
-            justify-content: space-around;
-            padding: 0px 30px;
+            display: flex;
+            text-align: center;
 
-            & #logo-footer img {
-                width: 50%;
-                margin-top: 5px;
+            & #logo-footer {
+                width: 100%;
+                align-content: center;
+
+                & img {
+                    width: 30%;
+                    margin-top: 5px;
+                    margin: auto;
+                }
             }
 
         }
@@ -72,10 +77,9 @@
         & .col-3#go-up {
             font-size: 3em;
             overflow: hidden;
-            width: 360px;
             align-content: center;
             text-align: center;
-            
+
             & button {
                 overflow: hidden;
                 border: none;
