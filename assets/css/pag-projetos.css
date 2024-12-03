@@ -1,5 +1,4 @@
 .container#trabalhos {
-    border: 1px solid red;
     margin-top: 70px;
     font-family: "Orbit", sans-serif;
 
@@ -8,7 +7,6 @@
     }
 
     & div#grade-projetos {
-        border: 1px solid blue;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -25,75 +23,100 @@
             border-radius: 5px;
 
             &:hover {
-                scale: 1.05;
+
                 transition: all .3s;
                 border: none;
             }
 
             & .itens-projeto {
-                background: linear-gradient(to top, var(--black), rgba(0, 0, 0, 0.1));
+                background: linear-gradient(to top, var(--black), rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.1));
                 height: 100%;
+                width: 100%;
                 align-items: center;
                 align-content: center;
+                backdrop-filter: blur(1px);
+
+                & button {
+                    border: none;
+                    background: var(--dark-blue);
+                    transition: all .3s;
+
+                    &:hover {
+                        scale: 1.05;
+                        background: var(--blue);
+                        transition: all .3s;
+                    }
+                }
             }
 
             &#p1 {
                 background: url(../img/Metabee.png);
                 background-position: center;
                 background-size: cover;
-            }  
+            }
+
             &#p2 {
                 background: url(../img/Art.png);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p3 {
                 background: url(../img/ExactTime.png);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p4 {
                 background: url(../img/login.png);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p5 {
                 background: url(../img/quiz.png);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p6 {
                 background: url(../img/IMC.png);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p7 {
                 background: url(../img/Mine.jpg);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p8 {
-                background: url(../img/ExactTime.png);
+                background: url(../img/to-do-list.png);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p9 {
-                background: url(../img/ExactTime.png);
+                background: url(../img/calc.png);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p10 {
-                background: url(../img/ExactTime.png);
+                background: url(../img/password.png);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p11 {
-                background: url(../img/ExactTime.png);
+                background: url(../img/niver.png);
                 background-position: center;
                 background-size: cover;
             }
+
             &#p12 {
-                background: url(../img/ExactTime.png);
+                background: var(--gray);
                 background-position: center;
                 background-size: cover;
             }
