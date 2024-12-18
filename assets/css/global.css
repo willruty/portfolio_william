@@ -367,6 +367,34 @@ h5 {
             }
         }
     }
+
+    /* ------------------- Descrição do projeto ------------------- */
+    /* Navegação */
+    div.container-fluid#navegacao {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+
+        & h1 {
+            font-size: 2em;
+            color: var(--light-blue);
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+        & a {
+            height: 100%;
+            line-height: 2em;
+            display: block;
+            align-content: center;
+
+            & p {
+                display: none;
+            }
+        }
+    }
 }
 
 /* mobile --> tablet */
@@ -693,6 +721,34 @@ h5 {
             }
         }
     }
+
+    /* ------------------- Descrição do projeto ------------------- */
+    /* Navegação */
+    div.container-fluid#navegacao {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+
+        & h1 {
+            font-size: 2em;
+            color: var(--light-blue);
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+        & a {
+            height: 100%;
+            line-height: 2em;
+            display: block;
+            align-content: center;
+
+            & p {
+                display: none;
+            }
+        }
+    }
 }
 
 /* tablet --> sml screen */
@@ -1014,6 +1070,43 @@ h5 {
         }
     }
 
+    /* Descrição do projeto */
+    /* Navegação */
+    div.container-fluid#navegacao {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+
+        & h1 {
+            font-size: 2em;
+            color: var(--light-blue);
+            display: block;
+            width: 50%;
+            text-align: center;
+        }
+
+        & a {
+            color: var(--blue);
+            text-decoration: none;
+            overflow: hidden;
+            height: 100%;
+            line-height: 2em;
+            display: block;
+            align-content: center;
+
+            & i {
+                display: inline;
+                font-size: 20px;
+            }
+
+            & p {
+                font-size: 15px;
+                display: inline;
+                margin: 5px;
+            }
+        }
+    }
 }
 
 /* sml screen --> L screen*/
