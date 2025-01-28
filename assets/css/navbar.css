@@ -2,7 +2,6 @@ nav {
     height: 8vh;
     width: 100%;
     background-color: rgba(41, 41, 41, 1);
-    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,6 +34,7 @@ nav {
         list-style: none;
         display: flex;
         transition: .3s ease-in-out;
+        z-index: 3;
 
         & li {
             letter-spacing: 3px;

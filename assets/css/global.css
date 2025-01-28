@@ -8,21 +8,22 @@
 body {
     background-color: var(--ebony);
     color: var(--white);
-    font-family: "Aboreto", serif;
+    font-family: "Poiret One", serif;
 }
 
 .container {
-    border: 1px solid red;
-    margin-top: 80px;
+    margin-top: 45px;
     position: absolute;
     display: flex;
     width: 90vw;
     margin-left: 5vw;
+    z-index: 1;
 }
 
 :root {
     --ebony: #525948;
     --swamp: #292929;
+    --gray: #494949;
     --sage: #70877F;
     --amber: #dda05d;
     --almond: #edddc7;
@@ -62,6 +63,55 @@ body {
             display: block;
         }
     }
+
+    /* Banner */
+    div.container #banner {
+
+        & div.fundo {
+            display: block;
+            height: 550px;
+
+            & div#perfil {
+                height: 200px;
+                overflow: hidden;
+                padding: 0;
+
+                & img {
+                    box-shadow: none;
+                    margin: 0;
+                    width: 100%;
+                }
+            }
+
+            & div#info-banner {
+                padding: 30px;
+
+                & div#tag {
+                    top: 5;
+                    right: 10;
+                    border-radius: 30px;
+                    z-index: 3;
+                }
+
+                & h1 {
+                    font-size: 1.4em;
+                }
+
+                & p#titulo-destaque {
+                    font-size: 2em;
+                }
+
+                & p#descricao {
+                    margin-top: 20px;
+                }
+
+                & div#botoes {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+    }
 }
 
 /* L mobile --> tablet */
@@ -94,6 +144,54 @@ body {
         & div.mobile-menu {
             display: block;
         }
+    }
+
+    /* Banner */
+    div.container #banner {
+
+        & div.fundo {
+            height: 550px;
+
+            & div#perfil {
+                height: 100%;
+                overflow: hidden;
+                padding: 0;
+
+                & img {
+                    box-shadow: none;
+                    margin-left: -80px;
+                    height: 100%;
+                }
+            }
+
+            & div#info-banner {
+                padding: 30px;
+
+                & div#tag {
+                    top: 5;
+                    right: 10;
+                    border-radius: 30px;
+                    z-index: 3;
+                }
+
+                & h1 {
+                    font-size: 1.4em;
+                }
+
+                & p#titulo-destaque {
+                    font-size: 2em;
+                }
+
+                & p#descricao {
+                    margin-top: 20px;
+                }
+
+                & div#botoes {
+                    margin-top: 20px;
+                }
+            }
+        }
+
     }
 }
 
