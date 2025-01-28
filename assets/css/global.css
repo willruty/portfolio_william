@@ -9,18 +9,20 @@ body {
     background-color: var(--ebony);
     color: var(--white);
     font-family: "Poiret One", serif;
+    overflow-x: hidden;
 }
 
 .container {
     margin-top: 45px;
     position: absolute;
-    display: flex;
+    display: block;
     width: 90vw;
     margin-left: 5vw;
     z-index: 1;
 }
 
 :root {
+    --navy: #081738;
     --ebony: #525948;
     --swamp: #292929;
     --gray: #494949;
@@ -68,6 +70,7 @@ body {
     div.container #banner {
 
         & div.fundo {
+            overflow-y: hidden;
             display: block;
             height: 550px;
 
@@ -85,6 +88,7 @@ body {
 
             & div#info-banner {
                 padding: 30px;
+                overflow-y: hidden;
 
                 & div#tag {
                     top: 5;
