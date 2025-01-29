@@ -5,6 +5,7 @@ div#sobre-mim {
     margin-top: 40px;
     background-color: var(--swamp);
     border-radius: 20px;
+    padding: 20px 10px;
 
     .test {
         padding: 15px;
@@ -34,11 +35,11 @@ div#sobre-mim {
         height: 95%;
         color: var(--swamp);
 
-        & h3 {
+        &h3 {
             font-size: 1.6em;
         }
 
-        & p#tempo {
+        &p#tempo {
             font-size: 2em;
         }
     }
@@ -50,6 +51,11 @@ div#sobre-mim {
         font-size: 1.3em;
         background: var(--navy);
         border-radius: 20px;
+        overflow: hidden;
+
+        & p#intro-detalhada{
+            display: none;
+        }
     }
 
     & div#formacao {
@@ -70,16 +76,73 @@ div#sobre-mim {
 
     & div#redes-sociais {
         grid-column: 1 / 3;
-        border: 1px solid red;
+        margin: 10px 5px;
+        padding: 0;
+        height: 140px;
 
-        & button{
-            grid-column: 1;
+        & div#download {
             width: 50%;
+            grid-column: 1;
+            padding-right: 10px;
+            padding-bottom: 0px;
+            background-color: var(--swamp);
+            float: left;
 
-            background-color: var(--amber);
-            border: none;
-            color: var(--swamp);
-            border-radius: 20px;
+            & button {
+                width: 100%;
+                height: 50%;
+                cursor: pointer;
+                background-color: var(--amber);
+                border: none;
+                color: var(--swamp);
+                border-radius: 15px;
+                font-size: 1.8em;
+                font-family: "Poiret One", serif;
+                font-weight: 900;
+                transition: .3s;
+
+                &:hover{
+                    background: #f0c385;
+                    transition: .3s;
+                }
+                
+            }
+        }
+
+        & #titulo-redes {
+            width: 50%;
+            height: 60%;
+            float: right;
+            margin: 0px;
+            font-size: 1.3em;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            text-align: center;
+            background-color: var(--brown);
+        }
+
+        & #icones-redes {
+            background-color: var(--brown);
+            width: 100%;
+            margin: 0px;
+            display: flex;
+            justify-content: space-around;
+            font-size: 1.5em;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+            & a {
+                text-decoration: none;
+                color: var(--sea-shell);
+                overflow: hidden;
+                transition: .3s;
+
+                &:hover{
+                    scale: 1.1;
+                    transition: .3s;
+                }
+            }
         }
     }
 }

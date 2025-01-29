@@ -25,6 +25,7 @@ body {
     --navy: #081738;
     --ebony: #525948;
     --swamp: #292929;
+    --brown: #412e15;
     --gray: #494949;
     --sage: #70877F;
     --amber: #dda05d;
@@ -239,6 +240,84 @@ body {
             display: flex;
             transition: .3s ease-in-out;
             margin-right: 30px;
+        }
+    }
+
+    /* Banner */
+    div#banner {
+        margin-bottom: 100px;
+
+        & div#info-banner {
+
+            & h1 {
+                font-size: 2.9em;
+            }
+
+            & p#descricao {
+                font-size: 2em;
+                font-weight: 600;
+            }
+
+            & button {
+                font-size: 1.3em;
+            }
+        }
+    }
+
+    /* Seção sobre mim */
+    div#sobre-mim {
+
+        & div#quem-sou {
+            font-size: 1.7em;
+        }
+
+        & div#tempo-codando {
+            font-size: 2em;
+        }
+
+        & div#intro {
+
+            & p {
+                font-size: 1.4em;
+
+                &#intro-detalhada {
+                    display: block !important;
+                }
+            }
+        }
+
+        & div#formacao {
+            grid-column: 1;
+            grid-row: 3;
+            width: 39.5%;
+            float: left;
+
+            & l#cursos {
+                font-size: 1.7em;
+            }
+        }
+
+        & div#redes-sociais {
+            grid-column: 2 !important;
+            grid-row: 3;
+            min-height: 200px;
+
+            & div#download {
+                font-size: 1.5em;
+            }
+
+            & div#titulo-redes {
+                font-size: 2em;
+            }
+
+            & div#icones-redes {
+                font-size: 2.5em;
+                height: 40%;
+
+                & i {
+                    align-content: center;
+                }
+            }
         }
     }
 }
