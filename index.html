@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="assets/css/banner.css" />
   <link rel="stylesheet" href="assets/css/sobre-mim.css" />
   <link rel="stylesheet" href="assets/css/tecnologias.css" />
+  <link rel="stylesheet" href="assets/css/projetos.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
 
   <title>Portifólio | Home</title>
 </head>
@@ -38,8 +40,8 @@
       <ul class="nav-list">
         <li><a href="index.html">HOME</a></li>
         <li><a href="#sobre-mim">SOBRE MIM</a></li>
-        <li><a href="/">TECNOLOGIAS</a></li>
-        <li><a href="/">PROJETOS</a></li>
+        <li><a href="#tecnologias">TECNOLOGIAS</a></li>
+        <li><a href="#meus-projetos">PROJETOS</a></li>
       </ul>
     </nav>
   </header>
@@ -73,8 +75,8 @@
 
           <br>
           <div id="botoes">
-            <a href=""><button id="contato"> Contato </button></a>
-            <a href=""><button id="explorar"> Explorar</button></a>
+            <a href="#links"><button id="contato"> Contato </button></a>
+            <a href="#sobre-mim"><button id="explorar"> Explorar</button></a>
           </div>
 
         </div>
@@ -90,7 +92,7 @@
 
       <div id="tempo-codando" class="test">
         <h3>Tempo codando:</h3>
-        <p id="tempo">70h 8 min</p>
+        <p id="tempo">76 horas 21 minutos</p>
       </div>
 
       <div id="intro" class="test">
@@ -104,7 +106,7 @@
       </div>
 
       <div id="formacao" class="test">
-        <h3>Formações principais</h3>
+        <h3 id="titulo-formacao">Formações principais</h3>
         <l id="cursos">
           <li> Engenharia de software - UniSenai</li>
           <li> Assitência e suporte técnico - CD6</li>
@@ -116,7 +118,7 @@
       <div id="redes-sociais" class="test">
 
         <div id="download">
-          <a href=""><button>Baixar CV</button></a>
+          <a href=""><button>Baixar Currículo</button></a>
         </div>
 
         <div id="titulo-redes" class="test">
@@ -128,6 +130,7 @@
           <a href="https://github.com/willruty"><i class="bi bi-github"></i></a>
           <a href="https://api.whatsapp.com/send?phone=5541984418576"><i class="bi bi-whatsapp"></i></a>
           <a href="https://www.instagram.com/will_ruty/"><i class="bi bi-instagram"></i></a>
+          <a href="https://monkeytype.com/profile/wills22"><img src="assets/img/creamsicle.svg" alt="sla" style="width: 40px;"></a>
         </div>
 
       </div>
@@ -194,32 +197,318 @@
 
     </div>
 
-  </div>
+    <!-- Seção projetos -->
+    <div id="meus-projetos">
+      <hr>
+      <h1 id="titulo-projetos">Meus Projetos</h1>
 
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
-  <br><br><br><br><br><br>
+      <div id="projetos">
+
+        <div class="card" id="p1">
+
+          <div class="img-card" id="metabee">
+            <img src="assets/img/Metabee.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">Metabee - Robótica <i class="bi bi-star-fill"></i></h3>
+
+            <p class="descricao-card">
+              A reformulação do site da empresa de Robótica MetaBee, visando a melhora da UI/UX.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p2">
+
+          <div class="img-card" id="minefield">
+            <img src="assets/img/Mine.jpg" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">MineField - Campo Minado <i class="bi bi-star-fill"></i></h3>
+
+            <p class="descricao-card">
+              Meu primeiro grande projeto em Java, a reprodução do clássico Campo Minado.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p3">
+
+          <div class="img-card">
+            <img src="assets/img/quiz.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">Quiz-Game <i class="bi bi-star-fill"></i></h3>
+
+            <p class="descricao-card">
+              Trabalho semestral da faculdade, confeccionamos um quiz completo sobre Softwares.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p4">
+
+          <div class="img-card" id="exactTime">
+            <img src="assets/img/ExactTime.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">ExactTime</h3>
+
+            <p class="descricao-card">
+              Uma página de E-commerce de relógios para uma loja fictícia.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p5">
+
+          <div class="img-card" id="login-page">
+            <img src="assets/img/login.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">Login Page</h3>
+
+            <p class="descricao-card">
+              Uma página de login simples que logo será implantado um banco de dados.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p6">
+
+          <div class="img-card">
+            <img src="assets/img/Art.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">Street Art</h3>
+
+            <p class="descricao-card">
+              Minha primeira página usando Bootstrap, trata-se de uma landing page para artes de rua.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p7">
+
+          <div class="img-card">
+            <img src="assets/img/calc.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">Calculadora - Java</h3>
+
+            <p class="descricao-card">
+              Uma calculadora básica com funções adicionais como fatoração, par ou ímpar e Baskara.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p8">
+
+          <div class="img-card">
+            <img src="assets/img/password.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">Gerador de senha - Java</h3>
+
+            <p class="descricao-card">
+              Um gerador de senha que é possível escolher os parâmetros em cada caractere.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p9">
+
+          <div class="img-card">
+            <img src="assets/img/niver.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">Calculadora de idade - Java</h3>
+
+            <p class="descricao-card">
+              Um algoritimo que calcula a sua idade baseando-se na data do seu aniversário.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p10">
+
+          <div class="img-card">
+            <img src="assets/img/IMC.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">Calculadora de IMC</h3>
+
+            <p class="descricao-card">
+              Meu primeiro projeto com JavaScript, uma calculadora de índice de massa corporal.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p11">
+
+          <div class="img-card">
+            <img src="assets/img/to-do-list.png" alt="">
+          </div>
+
+          <div class="body-card">
+
+            <h3 class="mini-titulo-projeto">Lista de tarefas</h3>
+
+            <p class="descricao-card">
+              Uma lista de tarefas que armazena os dados em um arquivo JSON.
+            </p>
+
+            <a href=""><button class="saiba-mais">Saiba mais</button></a>
+
+          </div>
+
+        </div>
+
+        <div class="card" id="p12">
+
+          <div class="img-card">
+            <img src="assets/img/construcao.jpg" alt="">
+          </div>
+
+          <div class="body-card" id="mais-em-breve">
+
+            <h2>Em breve mais projetos</h2>
+
+            <p class="descricao-card">
+              Busque um café e aguarde enquanto os próximos
+              projetos ainda estão em construção!
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <hr style="height: 3px; background: var(--swamp); border: none;">
+
+    <!-- Footer -->
+    <footer>
+      <div id="logo">
+        <a href="index.html"><img src="assets/img/image-removebg-preview.png"></a>
+      </div>
+
+      <div id="links">
+
+        <div id="nav" class="grupo-links">
+          <h4>Navegação</h4>
+          <ul>
+            <a href="index.html">
+              <li>Home</li>
+            </a>
+            <a href="#sobre-mim">
+              <li>Sobre mim</li>
+            </a>
+            <a href="#tecnologias">
+              <li>Tecnologias</li>
+            </a>
+            <a href="#meus-projetos">
+              <li>Projetos</li>
+            </a>
+          </ul>
+        </div>
+
+        <div id="social" class="grupo-links">
+          <h4>Social</h4>
+          <ul>
+            <a href="https://www.linkedin.com/in/williamrutyna">
+              <li>LinkedIn</li>
+            </a>
+            <a href="https://github.com/willruty">
+              <li>GitHub</li>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5541984418576">
+              <li>Whatsapp</li>
+            </a>
+            <a href="https://monkeytype.com/profile/wills22">
+              <li>MonkeyType</li>
+            </a>
+          </ul>
+        </div>
+
+        <div id="Contato" class="grupo-links">
+          <h4>Contato</h4>
+          <ul>
+            <li>williamrutynamacedo@gmail.com</li>
+            <li>willruty@gmail.com</li>
+            <li>+55 (41)98441-8576</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div id="creditos">
+        <p>Copyright &copy; 2025 - Todos os direitos reservados - WRM</p>
+      </div>
+    </footer>
+
+  </div>
 
   <script src="assets/js/script.js"></script>
   <script src="assets/js/mobile-navbar.js"></script>

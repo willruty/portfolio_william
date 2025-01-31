@@ -35,12 +35,12 @@ div#sobre-mim {
         height: 95%;
         color: var(--swamp);
 
-        &h3 {
-            font-size: 1.6em;
+        & h3 {
+            font-size: 1.2em;
         }
 
-        &p#tempo {
-            font-size: 2em;
+        & p#tempo {
+            font-size: 1.4em;
         }
     }
 
@@ -48,7 +48,7 @@ div#sobre-mim {
         grid-column: 2;
         grid-row: 1 / 3;
         height: 400px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         background: var(--navy);
         border-radius: 20px;
         overflow: hidden;
@@ -65,7 +65,8 @@ div#sobre-mim {
 
         & h3 {
             margin-bottom: 20px;
-            font-size: 1.6em;
+            font-size: 1.8em;
+            text-align: center;
             color: var(--amber);
         }
 
@@ -81,7 +82,7 @@ div#sobre-mim {
         height: 140px;
 
         & div#download {
-            width: 50%;
+            width: 65%;
             grid-column: 1;
             padding-right: 10px;
             padding-bottom: 0px;
@@ -110,8 +111,9 @@ div#sobre-mim {
         }
 
         & #titulo-redes {
-            width: 50%;
+            width: 35%;
             height: 60%;
+            overflow: hidden;
             float: right;
             margin: 0px;
             font-size: 1.3em;
