@@ -17,5 +17,5 @@ Em um mercado competitivo, um portfólio bem estruturado é essencial para um de
 
 ## Links
 
-[Link para demonstração ao vivo](https://willruty.github.io/Portfolio/)
+[Link para demonstração ao vivo](https://willruty.github.io/Portifolio/)
 
