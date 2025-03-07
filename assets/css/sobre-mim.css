@@ -88,6 +88,7 @@ div#sobre-mim {
             padding-bottom: 0px;
             background-color: var(--swamp);
             float: left;
+            margin-bottom: 10px;
 
             & button {
                 width: 100%;
@@ -112,13 +113,12 @@ div#sobre-mim {
 
         & #titulo-redes {
             width: 35%;
-            height: 60%;
+            height: 50%;
             overflow: hidden;
             float: right;
             margin: 0px;
             font-size: 1.3em;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
+            border-radius: 15px;
             text-align: center;
             background-color: var(--brown);
         }
@@ -130,9 +130,7 @@ div#sobre-mim {
             display: flex;
             justify-content: space-around;
             font-size: 1.5em;
-            border-top-left-radius: 20px;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
+            border-radius: 15px;
 
             & a {
                 text-decoration: none;
