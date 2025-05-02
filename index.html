@@ -5,15 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Aboreto&family=Major+Mono+Display&family=Poiret+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
   <!-- Links -->
-  <link rel="shortcut icon" type="imagex/ico" href="assets/img/image-removebg-preview.png" />
+  <link rel="shortcut icon" type="imagex/ico" href="../Portifolio/assets/img/logo.png" />
   <link rel="stylesheet" href="assets/css/global.css" />
   <link rel="stylesheet" href="assets/css/navbar.css" />
   <link rel="stylesheet" href="assets/css/banner.css" />
@@ -27,518 +29,64 @@
 
 <body>
 
-  <!-- NavBar -->
+  <!-- Navegação -->
   <header>
-    <nav>
-
-      <a href="index.html" id="logo"><img src="assets/img/image-removebg-preview.png"></a>
-      <div class="mobile-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-
+    <nav id="navbar">
       <ul class="nav-list">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="#sobre-mim">SOBRE MIM</a></li>
-        <li><a href="#tecnologias">TECNOLOGIAS</a></li>
-        <li><a href="#meus-projetos">PROJETOS</a></li>
+        <a href="index.html" id="logo"><img src="../Portifolio/assets/img/logo.png" alt="logo"></a>
+        <div id="links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </div>
       </ul>
+
+      <div id="nav-buttons">
+        <a href="https://github.com/willruty">
+          <button id="github">
+            <p>GitHub</p>
+          </button>
+        </a>
+        <a href="assets/img/Curriculo - William Rutyna Macedo.pdf" download>
+          <button>
+            <p>Currículo</p>
+          </button>
+        </a>
+      </div>
     </nav>
+
   </header>
 
-  <!-- Conteúdo -->
-  <div class="container" id="conteudo">
-
-    <!-- Banner inicial -->
-    <div id="banner">
-      <div class="fundo">
-
-        <div id="perfil">
-          <img src="assets/img/eu3.jpg" alt="">
-        </div>
-
-        <div id="info-banner">
-
-          <div id="tag">
-            <p style="font-family: Roboto Mono, serif;">William Rutyna Macedo</p>
-          </div>
-
-          <div id="titulo">
-            <h1>Onde a lógica encontra a</h1>
-            <p id="titulo-destaque">CRIATIVIDADE</p>
-            <br><br>
-          </div>
-
-          <p id="descricao">Estudante de Engenharia de Software com experiência em front-end e
-            back-end, focado em criar soluções completas, funcionais e escaláveis.
-          </p>
-
-          <br>
-          <div id="botoes">
-            <a href="#links"><button id="contato"> Contato </button></a>
-            <a href="#sobre-mim"><button id="explorar"> Explorar</button></a>
-          </div>
-
-        </div>
-
+  <!-- Banner/hero section -->
+  <section id="banner">
+    <div id="profile-img">
+      <div id="img-bg">
+        <img src="../Portifolio/assets/img/eu3.jpg" alt="foto minha">
       </div>
     </div>
-
-    <!-- Seção sobre mim -->
-    <div id="sobre-mim">
-      <div id="quem-sou" class="test">
-        <h2>Sobre mim</h2>
-      </div>
-
-      <div id="tempo-codando" class="test">
-        <h3>Tempo codando:</h3>
-        <p id="tempo">114 horas 21 minutos</p>
-      </div>
-
-      <div id="intro" class="test">
-        <p>Tendo paixão por tecnologia, ingressei no curso de engenharia de software há aproximadamente 1 ano
-          pela faculdade UniSenai, desde de então estou buscando a oportunidade perfeita para a minha entrada no
-          mercado de trabalho.
-        </p><br>
-        <p id="intro-detalhada">Ao longo desse período, venho adquirindo conhecimentos em desenvolvimento de software,
-          metodologias ágeis e banco de dados, além de me dedicar a projetos práticos para aprimorar minhas habilidades.
-        </p>
-      </div>
-
-      <div id="formacao" class="test">
-        <h3 id="titulo-formacao">Formações principais</h3>
-        <l id="cursos">
-          <li> Engenharia de software - UniSenai</li>
-          <li> Assitência e suporte técnico - CD6</li>
-          <li> Inglês fluente - Cultura inglesa</li>
-          <li> Java: Básico ao avançado - Cod3r BR </li>
-        </l>
-      </div>
-
-      <div id="redes-sociais" class="test">
-
-        <div id="download">
-          <a href="assets/img/Curriculo - William Rutyna Macedo.pdf" download><button>Baixar Currículo</button></a>
-        </div>
-
-        <div id="titulo-redes" class="test">
-          <h3>Redes sociais</h3>
-        </div>
-
-        <div id="icones-redes" class="test">
-          <a href="https://www.linkedin.com/in/williamrutyna"><i class="bi bi-linkedin"></i></a>
-          <a href="https://github.com/willruty"><i class="bi bi-github"></i></a>
-          <a href="https://api.whatsapp.com/send?phone=5541984418576"><i class="bi bi-whatsapp"></i></a>
-          <a href="https://www.instagram.com/will_ruty/"><i class="bi bi-instagram"></i></a>
-          <a href="https://monkeytype.com/profile/wills22"><img src="assets/img/creamsicle.svg" alt="sla"
-              style="width: 40px;"></a>
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Seção tecnologias -->
-    <div id="tecnologias">
-      <h1 id="titulo-tecnologias">TECNOLOGIAS</h1>
-
-      <div id="descricao-tec">
-        <p>Domino tecnologias como HTML, CSS, JavaScript e bancos de dados, além de possuir conhecimento em metodologias
-          ágeis. Estou sempre buscando aprimorar minhas habilidades, explorando novas ferramentas e boas práticas para
-          me tornar um desenvolvedor full-stack completo.</p>
-      </div>
-
-      <div id="tecs">
-
-        <div id="html" class="caixa-tec">
-          <i class="devicon-html5-plain"></i>
-          <p>HTML 5</p>
-        </div>
-
-        <div id="css" class="caixa-tec">
-          <i class="devicon-CSS3-plain"></i>
-          <p>CSS 3</p>
-        </div>
-
-        <div id="js" class="caixa-tec">
-          <i class="devicon-javascript-plain"></i>
-          <p>Javascript</p>
-        </div>
-
-        <div id="bootstrap" class="caixa-tec">
-          <i class="devicon-bootstrap-plain"></i>
-          <p>Bootstrap</p>
-        </div>
-
-        <div id="java" class="caixa-tec">
-          <i class="devicon-java-plain"></i>
-          <p>Java</p>
-        </div>
-
-        <div id="go" class="caixa-tec">
-          <i class="devicon-go-original-wordmark"></i>
-          <p>Golang</p>
-        </div>
-
-        <div id="sql" class="caixa-tec">
-          <i class="devicon-mysql-plain"></i>
-          <p>MySQL</p>
-        </div>
-
-        <div id="spring" class="caixa-tec">
-          <i class="devicon-spring-plain"></i>
-          <p>Spring</p>
-        </div>
-
-        <div id="git" class="caixa-tec">
-          <i class="devicon-git-plain"></i>
-          <p>Git</p>
-        </div>
-
-        <div id="office" class="caixa-tec">
-          <i class="bi bi-microsoft"></i>
-          <p>Office</p>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Seção projetos -->
-    <div id="meus-projetos">
-      <hr>
-      <h1 id="titulo-projetos">Meus Projetos</h1>
-
-      <div id="projetos">
-
-        <div class="card" id="p1">
-
-          <div class="img-card" id="metabee">
-            <img src="assets/img/Metabee.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Metabee - Robótica <i class="bi bi-star-fill"></i></h3>
-
-            <p class="descricao-card">
-              A reformulação do site da empresa de Robótica MetaBee, visando a melhora da UI/UX.
-            </p>
-
-            <a href="https://github.com/willruty/MetaBee"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p1">
-
-          <div class="img-card" id="metabee">
-            <img src="assets/img/spotify.webp" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Projeto Spotify <i class="bi bi-star-fill"></i></h3>
-
-            <p class="descricao-card">
-              Primeiro projeto full-stack usando banco de dados não relacional e React.js
-            </p>
-
-            <a href="https://github.com/willruty/Projeto-Spotify"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p2">
-
-          <div class="img-card" id="minefield">
-            <img src="assets/img/Mine.jpg" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">MineField - Campo Minado <i class="bi bi-star-fill"></i></h3>
-
-            <p class="descricao-card">
-              Meu primeiro grande projeto em Java, a reprodução do clássico Campo Minado.
-            </p>
-
-            <a href="https://github.com/willruty/MineField"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p3">
-
-          <div class="img-card">
-            <img src="assets/img/quiz.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Quiz-Game <i class="bi bi-star-fill"></i></h3>
-
-            <p class="descricao-card">
-              Trabalho semestral da faculdade, confeccionamos um quiz completo sobre Softwares.
-            </p>
-
-            <a href="https://github.com/willruty/Quiz-Game"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p4">
-
-          <div class="img-card" id="exactTime">
-            <img src="assets/img/ExactTime.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">ExactTime</h3>
-
-            <p class="descricao-card">
-              Uma página de E-commerce de relógios para uma loja fictícia.
-            </p>
-
-            <a href="https://github.com/willruty/ExactTime"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p5">
-
-          <div class="img-card" id="login-page">
-            <img src="assets/img/login.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Login Page</h3>
-
-            <p class="descricao-card">
-              Uma página de login simples que logo será implantado um banco de dados.
-            </p>
-
-            <a href="https://github.com/willruty/Login-Page"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p6">
-
-          <div class="img-card">
-            <img src="assets/img/Art.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Street Art</h3>
-
-            <p class="descricao-card">
-              Minha primeira página usando Bootstrap, trata-se de uma landing page para artes de rua.
-            </p>
-
-            <a href="https://github.com/willruty/Art"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p7">
-
-          <div class="img-card">
-            <img src="assets/img/calc.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Calculadora - Java</h3>
-
-            <p class="descricao-card">
-              Uma calculadora básica com funções adicionais como fatoração, par ou ímpar e Baskara.
-            </p>
-
-            <a href="https://github.com/willruty/Calculadora"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p8">
-
-          <div class="img-card">
-            <img src="assets/img/password.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Gerador de senha - Java</h3>
-
-            <p class="descricao-card">
-              Um gerador de senha que é possível escolher os parâmetros em cada caractere.
-            </p>
-
-            <a href="https://github.com/willruty/Password"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p9">
-
-          <div class="img-card">
-            <img src="assets/img/niver.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Calculadora de idade - Java</h3>
-
-            <p class="descricao-card">
-              Um algoritimo que calcula a sua idade baseando-se na data do seu aniversário.
-            </p>
-
-            <a href="https://github.com/willruty/Calculadora-idade"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p10">
-
-          <div class="img-card">
-            <img src="assets/img/IMC.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Calculadora de IMC</h3>
-
-            <p class="descricao-card">
-              Meu primeiro projeto com JavaScript, uma calculadora de índice de massa corporal.
-            </p>
-
-            <a href="https://github.com/willruty/Calculadora-IMC"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p11">
-
-          <div class="img-card">
-            <img src="assets/img/to-do-list.png" alt="">
-          </div>
-
-          <div class="body-card">
-
-            <h3 class="mini-titulo-projeto">Lista de tarefas</h3>
-
-            <p class="descricao-card">
-              Uma lista de tarefas que armazena os dados em um arquivo JSON.
-            </p>
-
-            <a href="https://github.com/willruty/To-do-List"><button class="saiba-mais">Saiba mais</button></a>
-
-          </div>
-
-        </div>
-
-        <div class="card" id="p12">
-
-          <div class="img-card">
-            <img src="assets/img/construcao.jpg" alt="">
-          </div>
-
-          <div class="body-card" id="mais-em-breve">
-
-            <h2>Em breve mais projetos</h2>
-
-            <p class="descricao-card">
-              Busque um café e aguarde enquanto os próximos
-              projetos ainda estão em construção!
-            </p>
-
-          </div>
-
-        </div>
-
+    <div id="profile-text">
+      <div id="profile-title">
+        <h1>Build and ship software on a single, collaborative platform</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nobis repellat consectetur minus et quas id</p>
+        <a href="#about-me"><button>Explorar</button></a>
       </div>
     </div>
+  </section>
 
-    <hr style="height: 3px; background: var(--swamp); border: none;">
 
-    <!-- Footer -->
-    <footer>
-      <div id="logo">
-        <a href="index.html"><img src="assets/img/image-removebg-preview.png"></a>
-      </div>
-
-      <div id="links">
-
-        <div id="nav" class="grupo-links">
-          <h4>Navegação</h4>
-          <ul>
-            <a href="index.html">
-              <li>Home</li>
-            </a>
-            <a href="#sobre-mim">
-              <li>Sobre mim</li>
-            </a>
-            <a href="#tecnologias">
-              <li>Tecnologias</li>
-            </a>
-            <a href="#meus-projetos">
-              <li>Projetos</li>
-            </a>
-          </ul>
-        </div>
-
-        <div id="social" class="grupo-links">
-          <h4>Social</h4>
-          <ul>
-            <a href="https://www.linkedin.com/in/williamrutyna">
-              <li>LinkedIn</li>
-            </a>
-            <a href="https://github.com/willruty">
-              <li>GitHub</li>
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=5541984418576">
-              <li>Whatsapp</li>
-            </a>
-            <a href="https://monkeytype.com/profile/wills22">
-              <li>MonkeyType</li>
-            </a>
-          </ul>
-        </div>
-
-        <div id="Contato" class="grupo-links">
-          <h4>Contato</h4>
-          <ul>
-            <li>williamrutynamacedo@gmail.com</li>
-            <li>willruty@gmail.com</li>
-            <li>+55 (41)98441-8576</li>
-          </ul>
-        </div>
-
-      </div>
-
-      <div id="creditos">
-        <p>Copyright &copy; 2025 - Todos os direitos reservados - WRM</p>
-      </div>
-    </footer>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem animi dicta eveniet veniam reiciendis vel
+  magni tempora voluptates eligendi laborum eaque illo eius sunt saepe atque nostrum harum, nisi nesciunt?
 
   </div>
 
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/mobile-navbar.js"></script>
+  <script src="assets/js/navbar.js"></script>
 </body>
 
 </html>
