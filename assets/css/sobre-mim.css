@@ -1,145 +1,132 @@
-div#sobre-mim {
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 40px;
-    background-color: var(--swamp);
-    border-radius: 20px;
-    padding: 20px 10px;
+section#sobre-mim {
+    border-top: 1px solid #66666666;
+    border-bottom: 1px solid #66666666;
 
-    .test {
-        padding: 15px;
-        margin: 5px;
-        align-content: center;
-    }
+    & div#sobre-mim-content {
+        border-right: 1px solid #66666666;
+        border-left: 1px solid #66666666;
+        margin: auto;
+        width: 80%;
 
-    & div#quem-sou {
-        grid-column: 1;
-        grid-row: 1;
-        background: var(--sage);
-        border-radius: 20px;
-        border: none;
-        height: 90%;
+        & div#sobre-mim-header {
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid #66666666;
+            box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: row;
 
-        & h2 {
-            font-size: 2.3em;
-        }
-    }
+            & div#sobre-mim-title {
+                padding: 20px;
+            }
 
-    & div#tempo-codando {
-        grid-row: 2;
-        grid-column: 1;
-        background: var(--sea-shell);
-        border-radius: 20px;
-        border: none;
-        height: 95%;
-        color: var(--swamp);
+            & div#badges {
+                padding: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 10px;
+                flex: 1;
 
-        & h3 {
-            font-size: 1.2em;
-        }
+                & div.badge {
+                    font-size: 0.8rem;
+                    letter-spacing: 1.1px;
+                    border: none;
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(15px);
+                    padding: 10px 15px;
+                    border-radius: 15px;
+                    transition: 0.3s;
+                    color: rgba(255, 255, 255, 0.9);
+                    white-space: nowrap;
 
-        & p#tempo {
-            font-size: 1.4em;
-        }
-    }
-
-    & div#intro {
-        grid-column: 2;
-        grid-row: 1 / 3;
-        height: 400px;
-        font-size: 1.2em;
-        background: var(--navy);
-        border-radius: 20px;
-        overflow: hidden;
-
-        & p#intro-detalhada{
-            display: none;
-        }
-    }
-
-    & div#formacao {
-        grid-column: 1 / 3;
-        border: 1px solid var(--sea-shell);
-        border-radius: 20px;
-
-        & h3 {
-            margin-bottom: 20px;
-            font-size: 1.8em;
-            text-align: center;
-            color: var(--amber);
-        }
-
-        & l {
-            font-size: 1.1em;
-        }
-    }
-
-    & div#redes-sociais {
-        grid-column: 1 / 3;
-        margin: 10px 5px;
-        padding: 0;
-        height: 140px;
-
-        & div#download {
-            width: 65%;
-            grid-column: 1;
-            padding-right: 10px;
-            padding-bottom: 0px;
-            background-color: var(--swamp);
-            float: left;
-            margin-bottom: 10px;
-
-            & button {
-                width: 100%;
-                height: 50%;
-                cursor: pointer;
-                background-color: var(--amber);
-                border: none;
-                color: var(--swamp);
-                border-radius: 15px;
-                font-size: 1.8em;
-                font-weight: 900;
-                transition: .3s;
-
-                &:hover{
-                    background: #f0c385;
-                    transition: .3s;
+                    &:hover {
+                        filter: brightness(1.5);
+                    }
                 }
-                
             }
         }
 
-        & #titulo-redes {
-            width: 35%;
-            height: 50%;
-            overflow: hidden;
-            float: right;
-            margin: 0px;
-            font-size: 1.3em;
-            border-radius: 15px;
-            text-align: center;
-            background-color: var(--brown);
-        }
+        & div#sobre-mim-info {
+            border-top: 1px solid #66666666;
+            box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+            display: grid;
+            grid-template-columns: 1fr 2fr;
 
-        & #icones-redes {
-            background-color: var(--brown);
-            width: 100%;
-            margin: 0px;
-            display: flex;
-            justify-content: space-around;
-            font-size: 1.5em;
-            border-radius: 15px;
+            & h3 {
+                color: var(--white);
+                margin: 5px;
+            }
 
-            & a {
-                text-decoration: none;
-                color: var(--sea-shell);
-                overflow: hidden;
-                transition: .3s;
+            & ul {
+                border-right: 1px solid #66666666;
+                padding: 20px 0 60px 20px;
+                list-style-type: disc;
+                list-style-position: inside;
+                color: rgba(255, 255, 255, 0.7);
+                grid-column: 1;
+                grid-row: 1 / span 2;
 
-                &:hover{
-                    scale: 1.1;
-                    transition: .3s;
+                & li {
+                    margin-top: 15px;
+                }
+            }
+
+            & div#text {
+                padding: 20px 25px;
+                color: rgba(255, 255, 255, 0.7);
+                grid-column: 2;
+
+                & h3 {
+                    margin: 10px 0;
+                }
+
+                & p {
+                    margin: 10px 0;
+                }
+            }
+
+            & div#sobre-mim-tecs {
+                border-top: 1px solid #66666666;
+                padding: 20px 25px;
+                width: 100%;
+                grid-column: 2;
+
+                & h3 {
+                    margin-bottom: 10px;
+                }
+
+                & div#tec-cards {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    justify-content: space-around;
+                    margin-top: 20px;
+
+                    & div.small-tec-card {
+                        background: rgba(255, 255, 255, 0.1);
+                        backdrop-filter: blur(15px);
+                        font-size: 1.1rem;
+                        border-radius: 15px;
+                        color: rgba(255, 255, 255, 0.85);
+                        width: 120px;
+                        height: 100px;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        transition: 0.3s;
+
+                        & i {
+                            font-size: 2rem;
+                            margin-bottom: 8px;
+                        }
+
+                        &:hover {
+                            background: rgba(255, 255, 255, 0.2);
+                        }
+                    }
                 }
             }
         }

@@ -57,25 +57,35 @@ nav {
     }
 
 
-    & div#nav-buttons a button {
-        background: none;
-        color: var(--gray-250);
-        border: 1px solid var(--gray-500);
-        padding: 3px;
-        border-radius: 10px;
+    & div#nav-buttons {
         margin-right: 15px;
-        transition: .3s;
 
-        &#github {
-            border: none;
-        }
-
-        &:hover {
-            opacity: 1;
+        & a button {
+            background: none;
+            padding: 3px 15px;
+            border-radius: 10px;
             transition: .3s;
-            color: var(--white);
-            border-color: var(--white);
-            cursor: pointer;
+            border: none;
+            color: #fff;
+            background: rgba(255, 255, 255, 0.2);
+
+            &#github {
+                color: var(--gray-250);
+                background: none;
+
+                &:hover {
+                    transition: .3s;
+                    color: var(--white);
+                }
+            }
+
+            &:hover {
+                opacity: 1;
+                transition: .3s;
+                color: var(--gray-250);
+                border-color: var(--white);
+                cursor: pointer;
+            }
         }
     }
 
@@ -99,14 +109,19 @@ nav.ativo {
 
 
     & div#nav-buttons a button {
-        color: var(--white);
         border-color: var(--white);
-        padding: 4px;
+        padding: 3px 15px;
         background-color: rgba(255, 255, 255, 0.2);
         border: none;
-
-        &#github{
+        
+        &#github {
+            color: var(--white);
             background: none;
+
+            &:hover {
+                transition: .3s;
+                color: var(--gray-250);
+            }
         }
 
         &:hover {
