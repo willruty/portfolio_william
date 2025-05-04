@@ -1,5 +1,5 @@
-# Portfólio pessoal versão 1.0
-![Fundo banner](assets/img/eu1.jpg)
+# Portfólio pessoal versão 2.0
+![Fundo banner](assets/img/eu3.jpg)
 ## Descrição geral
 Em um mercado competitivo, um portfólio bem estruturado é essencial para um desenvolvedor de software, pois vai além de um currículo tradicional ao demonstrar habilidades técnicas de forma prática e visual, destacando tecnologias utilizadas, desafios superados e resultados obtidos. Sempre estive ansioso para construir meu próprio portfólio, pois reconheço sua importância na minha evolução profissional, permitindo-me expor projetos de maneira organizada e personalizada, refletindo minha abordagem técnica. Aqui, apresento soluções que evidenciam meu domínio de linguagens, frameworks e boas práticas, abrangendo desde o desenvolvimento de aplicações web até o gerenciamento de bancos de dados e metodologias ágeis, consolidando minha trajetória na área.
 
