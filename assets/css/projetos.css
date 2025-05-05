@@ -1,0 +1,133 @@
+section#projetos {
+    min-height: 750px;
+    text-align: center;
+    padding: 60px;
+    background: none;
+    position: relative;
+    overflow: hidden;
+
+    & div.projects-glow-bg {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        width: 1000px;
+        height: 900px;
+        transform: translate(-50%, -50%);
+        filter: blur(100px);
+        z-index: 0;
+        
+        &#bg-1 {
+            top: 40%;
+            left: 10%;
+            width: 800px;
+            height: 900px;
+            background: radial-gradient(circle, rgb(238, 215, 12) 0%, rgba(10, 94, 221, 0.425) 80%);
+        }
+        &#bg-2 {
+            top: 50%;
+            left: 60%;
+            width: 1000px;
+            height: 900px;
+            background: radial-gradient(circle, rgb(163, 0, 0) 0%, rgba(10, 94, 221, 0.425) 80%);
+        }
+        &#bg-3 {
+            top: 90%;
+            left: 40%;
+            width: 1000px;
+            height: 900px;
+            background: radial-gradient(circle, rgb(5, 163, 0) 0%, rgba(10, 94, 221, 0.425) 80%);
+        }
+    }
+
+    & div#projetos-title {
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        position: relative;
+
+        & h2 {
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+
+        & p {
+            width: 60%;
+            margin: 30px auto;
+            color: var(--gray-250);
+        }
+    }
+
+    & div#cards {
+        margin-top: 50px;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        z-index: 2;
+        position: relative;
+
+        & div.card {
+            width: 20%;
+            border: 1px solid rgba(255, 255, 255, 0.158);
+            border-radius: 8px;
+
+            & div.img {
+                background-color: white;
+                height: 70%;
+                overflow: hidden;
+
+                &#metabee {
+                    background: url(../img/Metabee.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                &#spotify {
+                    background: url(../img/spotify.webp);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                &#art {
+                    background: url(../img/Art.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                &#exactTime {
+                    background: url(../img/ExactTime.png) no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+            }
+
+            & div.description {
+                background-color: #2121216e;
+                backdrop-filter: blur(15px);
+                height: 30%;
+                text-align: left;
+                padding: 20px;
+
+                & div.card-title {
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                }
+
+                & div.card-mini-text {
+                    margin-bottom: 10px;
+                    color: var(--gray-250);
+                }
+
+                & div.card-button button {
+                    padding: 5px 10px;
+                    border: 1px solid rgba(145, 145, 145, 0.692);
+                    background: none;
+                    border-radius: 10px;
+                    color: white;
+                }
+            }
+        }
+    }
+}

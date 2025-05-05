@@ -51,7 +51,7 @@ nav {
 
             & li {
                 margin-left: 32px;
-
+                margin-top: 5px;
             }
         }
     }
@@ -92,7 +92,8 @@ nav {
 }
 
 nav.ativo {
-    background: var(--main-bg);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
 
     & ul.nav-list a#logo {
         opacity: 100%;

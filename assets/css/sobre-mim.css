@@ -7,6 +7,7 @@ section#sobre-mim {
         border-left: 1px solid #66666666;
         margin: auto;
         width: 80%;
+        min-height: 600px;
 
         & div#sobre-mim-header {
             align-items: center;
@@ -52,10 +53,12 @@ section#sobre-mim {
             box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
             display: grid;
             grid-template-columns: 1fr 2fr;
+            height: 60%;
 
             & h3 {
                 color: var(--white);
                 margin: 5px;
+                font-size: 1.5rem;
             }
 
             & ul {
@@ -82,7 +85,7 @@ section#sobre-mim {
                 }
 
                 & p {
-                    margin: 10px 0;
+                    margin: 25px 0px 0px 0px;
                 }
             }
 
@@ -101,7 +104,7 @@ section#sobre-mim {
                     flex-wrap: wrap;
                     gap: 20px;
                     justify-content: space-around;
-                    margin-top: 20px;
+                    margin-top: 50px;
 
                     & div.small-tec-card {
                         background: rgba(255, 255, 255, 0.1);
