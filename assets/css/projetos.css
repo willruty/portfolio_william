@@ -17,25 +17,25 @@ section#projetos {
         z-index: 0;
         
         &#bg-1 {
-            top: 40%;
+            top: 0%;
             left: 10%;
-            width: 800px;
-            height: 900px;
-            background: radial-gradient(circle, rgb(238, 215, 12) 0%, rgba(10, 94, 221, 0.425) 80%);
+            width: 1000px;
+            height: 400px;
+            background: radial-gradient(circle, #42A5F5 0%, rgba(13, 71, 161, 0.425) 80%);
         }
         &#bg-2 {
             top: 50%;
-            left: 60%;
+            left: 100%;
             width: 1000px;
             height: 900px;
-            background: radial-gradient(circle, rgb(163, 0, 0) 0%, rgba(10, 94, 221, 0.425) 80%);
+            background: radial-gradient(circle, #1E88E5 0%, rgba(7, 71, 167, 0.425) 80%);
         }
         &#bg-3 {
-            top: 90%;
-            left: 40%;
-            width: 1000px;
+            top: 100%;
+            left: 100%;
+            width: 700px;
             height: 900px;
-            background: radial-gradient(circle, rgb(5, 163, 0) 0%, rgba(10, 94, 221, 0.425) 80%);
+            background: radial-gradient(circle, #D69F5F 0%, rgba(10, 94, 221, 0.425) 80%);
         }
     }
 
