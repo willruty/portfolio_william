@@ -45,11 +45,11 @@ function drawPieChart() {
         },
         backgroundColor: 'transparent',
         colors: [
-            '#0d47a1',  // azul profundo quase marinho
-            '#64b5f6', // azul claro médio (mais escuro que o anterior)
-            '#42a5f5', // azul padrão
-            '#2196f3', // azul mais saturado
-            '#1976d2' // azul escuro vibrante
+            '#0c2d72',  // azul profundo quase marinho
+            '#49a5f5', // azul claro médio (mais escuro que o anterior)
+            '#1275c9', // azul padrão
+            '#7cc6ff', // azul mais saturado
+            '#0077b6' // azul escuro vibrante
         ]
     };
 
@@ -63,11 +63,11 @@ google.charts.setOnLoadCallback(drawBarChart);
 function drawBarChart() {
     var data = google.visualization.arrayToDataTable([
         ['Ferramenta', 'Nível de Conhecimento', { role: 'style' }],
-        ['Golang', 90, 'color: #e3f2fd'],
-        ['HTML', 85, 'color: #90caf9'],
-        ['CSS', 75, 'color: #1e88e5'],
-        ['Banco de dados', 80, 'color: #42a5f5'],
-        ['JavaScript', 40, 'color: #0d47a1']
+        ['Golang', 90, 'color: #7cc6ff'],
+        ['HTML', 85, 'color: #49a5f5'],
+        ['CSS', 75, 'color: #1275c9'],
+        ['Banco de dados', 80, 'color:rgb(1, 85, 131)'],
+        ['JavaScript', 40, 'color: #0c2d72']
     ]);
 
     var options = {

@@ -30,7 +30,7 @@
         width: 1000px;
         height: 900px;
         transform: translate(-50%, -50%);
-        background: radial-gradient(circle, rgba(0, 130, 163, 1) 0%, rgba(10, 94, 221, 0.425) 80%);
+        background: radial-gradient(circle, var(--blue-200) 0%, rgba(10, 94, 221, 0.425) 80%);
         filter: blur(100px);
         z-index: 0;
     }

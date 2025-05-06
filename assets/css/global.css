@@ -26,12 +26,17 @@ p {
 }
 
 :root {
-    --main-bg: #0D1117;
+    --main-bg: #0a0f1c;
     --white: #fff;
     --gray-250: #a5a5a5;
-    --gray-500: #7a7a7a;
-    --gray-750: #4e4e4e;
     --purple-bg: #0B0D41;
+
+    --blue-night: #020024;
+    --blue-navy: #0c2d72;
+    --blue-800: #0077b6;
+    --blue-600: #1275c9;
+    --blue-400: #49a5f5;
+    --blue-200: #7cc6ff;
 }
 
 /* mobile */
