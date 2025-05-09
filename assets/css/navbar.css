@@ -61,17 +61,26 @@ nav {
         margin-right: 15px;
 
         & a button {
-            background: none;
-            padding: 3px 15px;
-            border-radius: 10px;
-            transition: .3s;
-            border: none;
-            color: #fff;
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 12px 24px;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+
+            &:hover {
+                border-color: rgba(255, 255, 255, 0.3);
+                background: rgba(255, 255, 255, 0.15);
+                transition: .3s;
+                cursor: pointer;
+            }
 
             &#github {
-                color: var(--gray-250);
                 background: none;
+                border: none;
+                color: #ffffff85;
 
                 &:hover {
                     transition: .3s;
@@ -79,13 +88,6 @@ nav {
                 }
             }
 
-            &:hover {
-                opacity: 1;
-                transition: .3s;
-                color: var(--gray-250);
-                border-color: var(--white);
-                cursor: pointer;
-            }
         }
     }
 
@@ -114,7 +116,7 @@ nav.ativo {
         padding: 3px 15px;
         background-color: rgba(255, 255, 255, 0.2);
         border: none;
-        
+
         &#github {
             color: var(--white);
             background: none;
@@ -131,6 +133,42 @@ nav.ativo {
             color: var(--gray-250);
         }
     }
+}
+
+button#to-top {
+    position: fixed;
+    bottom: 50;
+    right: 50;
+    z-index: 10;
+
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 50px;
+
+    transform: rotate(-45deg);
+    transition: .3s ease-in-out;
+
+    & i {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    &:hover {
+        border-color: rgba(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.15);
+        cursor: pointer;
+        transform: rotate(0deg);
+    }
+}
+
+button#to-top.ativo {
+    opacity: 1;
+    transition: 0.5s ease-out;
 }
 
 @media (425px < width < 620px) {

@@ -98,7 +98,7 @@ section#ultima-secao {
                 }
 
                 & div.description {
-                    background-color: #212121;
+                    background-color: #1f1f1f;
                 }
             }
 
@@ -134,12 +134,12 @@ section#ultima-secao {
             }
 
             & div.description {
-                background-color: #21212156;
+                background-color: #212121be;
                 backdrop-filter: blur(15px);
                 height: 30%;
                 text-align: left;
                 padding: 20px;
-                transition: 0.2s ease-in-out;
+                transition: 0.3s;
 
                 & div.card-mini-text {
                     margin-bottom: 10px;

@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <b>Este projeto tem como objetivo oferecer uma base pronta para desenvolvedores criarem seus próprios portfólios com facilidade. Ele vai além de um simples currículo, permitindo demonstrar habilidades técnicas de forma prática, visual e interativa — facilitando a visibilidade no mercado e a valorização profissional.</b>
+    Este projeto tem como objetivo oferecer uma base pronta para desenvolvedores criarem seus próprios portfólios com facilidade. Ele vai além de um simples currículo, permitindo demonstrar habilidades técnicas de forma prática, visual e interativa — facilitando a visibilidade no mercado e a valorização profissional. <strong>Pedimos que o conteúdo do rodapé seja mantido inalterado, pois ele inclui informações essenciais sobre os desenvolvedores do projeto e sua autoria.<strong>
 </p>
 
 <p align="center">
@@ -16,9 +16,9 @@
 
 <h2 id="layout">🎨 Layout</h2>
 
-<p align="center" style="display:flex;">
-    <img src="assets/img/banner.png" alt="Image Example" width="80%">
-    <img src="assets/img/projetos.png" alt="Image Example" width="80%">
+<p align="center">
+    <img src="assets/img/banner.png" alt="Image Example" width="90%">
+    <img src="assets/img/projetos.png" alt="Image Example" width="90%">
 </p>
 
 <h2 id="tech">💻 Tecnologias</h2>

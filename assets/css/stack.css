@@ -40,18 +40,18 @@
         z-index: 1;
         border-top-right-radius: 1rem;
         border-top-left-radius: 1rem;
-        padding: 40px 40px 0px 40px;
+        padding: 30px 40px 0px 40px;
         text-align: center;
         width: 80%;
         margin: auto;
 
-        background: linear-gradient(to top, #3A5F88, #222a66, #8b8c9456);
-        backdrop-filter: blur(35px);
+        background: linear-gradient(to top, var(--blue-navy), #151f6b, #ffffff00);
+        backdrop-filter: blur(150px);
         border: 2px solid gray;
         border-bottom: none;
 
         & h3 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin: 30px;
             margin-top: 0;
             color: var(--white);

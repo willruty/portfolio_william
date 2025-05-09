@@ -38,30 +38,37 @@
   <header>
     <nav id="navbar">
       <ul class="nav-list">
-        <a href="index.html" id="logo"><img src="assets/img/logo.png" alt="logo"></a>
+        <a href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" id="logo"><img src="assets/img/logo.png"
+            alt="logo"></a>
         <div id="links">
-          <li><a href="#terminal">Sobre</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#1" onclick="window.scrollTo({ top: 1300, behavior: 'smooth' })">Sobre</a></li>
+          <li><a href="#2" onclick="window.scrollTo({ top: 2000, behavior: 'smooth' })">Skills</a></li>
+          <li><a href="#3" onclick="window.scrollTo({ top: 3400, behavior: 'smooth' })">Projetos</a></li>
+          <li><a href="#4" onclick="window.scrollTo({ top: 9000, behavior: 'smooth' })">Contatos</a></li>
         </div>
       </ul>
 
       <div id="nav-buttons">
-        <a href="https://github.com/willruty">
+        <a href="https://github.com/...">
           <button id="github">
             <p>GitHub</p>
           </button>
         </a>
-        <a href="assets/img/Curriculo - William Rutyna Macedo.pdf" download>
+        <a href="assets/img/Curriculo - seu_curriculo.pdf" download>
           <button>
             <p>Currículo</p>
           </button>
         </a>
       </div>
     </nav>
-
   </header>
+
+  <!-- Scroll up button -->
+  <button id="to-top">
+    <a href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+      <i class="bi bi-arrow-up"></i>
+    </a>
+  </button>
 
   <!-- Banner/hero section -->
   <section id="banner">
@@ -75,7 +82,7 @@
         <h1>Desenvolvedor Full-Stack focado em soluções eficientes e criativas</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nobis repellat consectetur minus et quas id
         </p>
-        <a href="#sobre-mim"><button>Explorar</button></a>
+        <a href="#1" onclick="window.scrollTo({ top: 1300, behavior: 'smooth' })"><button>Explorar</button></a>
       </div>
     </div>
   </section>
@@ -106,25 +113,28 @@
       <div id="sobre-mim-info">
         <ul>
           <h3> Dados rápidos</h3>
-          <li>William Rutyna Macedo</li>
-          <li>Formação: Engenharia de software</li>
-          <li>Período atual: 3º período</li>
-          <li>Empresa atual: Najatec (início mar.2025)</li>
-          <li>Cargo: Estágiario back-end (Golang)</li>
-          <li>Curitiba / São José dos Pinhais - PR</li>
-          <li>Português (Nativo) - Inglês (Avançado)</li>
+          <li>Nome: ...</li>
+          <li>Formação: ...</li>
+          <li>Período atual: ...</li>
+          <li>Empresa atual: ...</li>
+          <li>Cargo: ...</li>
+          <li>Localização: ...</li>
+          <li>Linguagens: ...</li>
         </ul>
 
         <div id="text">
           <h3>O caminho até aqui</h3>
           <p>
-            &emsp;Entrei na faculdade de Engenharia de Software em 2024 e atualmente estou no 3º período. Minha jornada
-            na
-            área começou por pura curiosidade, que rapidamente se transformou em paixão. Desde 2023 venho estudando
-            programação de forma constante, explorando diferentes linguagens e tecnologias, sempre em busca de novos
-            desafios. Em março de 2025, iniciei minha experiência profissional na área, aplicando na prática tudo o que
-            venho aprendendo e aprimorando. Gosto de resolver problemas complexos e estou sempre em busca de evoluir
-            como desenvolvedor, tanto em projetos individuais quanto em equipe.
+            &emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur labore distinctio, fuga veritatis
+            obcaecati perspiciatis? Laboriosam facere eos praesentium pariatur quibusdam saepe numquam maiores soluta
+            repellat ullam, asperiores blanditiis. Quis.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur labore distinctio, fuga veritatis
+            obcaecati perspiciatis? Laboriosam facere eos praesentium pariatur quibusdam saepe numquam maiores soluta
+            repellat ullam, asperiores blanditiis. Quis.
+            repellat ullam, asperiores blanditiis. Quis.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur labore distinctio, fuga veritatis
+            obcaecati perspiciatis? Laboriosam facere eos praesentium pariatur quibusdam saepe numquam maiores soluta
+            repellat ullam, asperiores blanditiis. Quis.
           </p>
         </div>
 
@@ -223,7 +233,7 @@
   </section>
 
   <!-- Scrool lateral de tecs -->
-  <div class="tech-carousel">
+  <div id="tech-carousel">
     <div class="carousel-track">
       <!-- Repetir blocos para efeito infinito -->
       <div class="logo"><i class="devicon-html5-plain"></i></div>
@@ -259,6 +269,7 @@
   <!-- Ultima seção -->
   <section id="ultima-secao">
 
+    <!-- Background light points -->
     <div class="light-point-bg" id="bg-1"></div>
     <div class="light-point-bg" id="bg-2"></div>
     <div class="light-point-bg" id="bg-3"></div>
@@ -313,19 +324,9 @@
 
     <!-- Restante dos projetos -->
     <div id="all-projects">
-      <div class="scrollable-projects">
-        <!-- 
-        Project Item 
-
-        <div class="project-item">
-          <img src="/portfolio2.0/assets/img/ExactTime.png" alt="Projeto 2" class="project-image">
-          <p class="project-description">Descrição do Projeto 2</p>
-        </div>
-        -->
+      <div class="projects-carousel">
+        
       </div>
-
-      <!-- Instruções pra continuar scroll -->
-      
     </div>
 
     <!-- Contatos -->
@@ -335,8 +336,8 @@
         <p>Aberto a projetos, parcerias e oportunidades. Vamos conversar?</p>
 
         <div class="cta-buttons">
-          <a href="https://www.linkedin.com/in/williamrutyna/" target="_blank" class="cta-btn">LinkedIn</a>
-          <a href="https://github.com/willruty" target="_blank" class="cta-btn">GitHub</a>
+          <a href="https://www.linkedin.com/in/..." target="_blank" class="cta-btn">LinkedIn</a>
+          <a href="https://github.com/..." target="_blank" class="cta-btn">GitHub</a>
           <a href="mailto:seu@email.com" class="cta-btn">E-mail</a>
           <a href="https://wa.me/seu_numero" target="_blank" class="cta-btn">WhatsApp</a>
         </div>
@@ -345,7 +346,7 @@
 
     <!-- Footer -->
     <footer>
-      <p>© 2025 William Rutyna Macedo. Todos os direitos reservados.</p>
+      <p>© 2025 William Rutyna Macedo & Kauã Peres Sudre. Todos os direitos reservados.</p>
     </footer>
 
   </section>
@@ -353,6 +354,7 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="assets/js/scroll.js"></script>
   <script src="assets/js/navbar.js"></script>
   <script src="assets/js/terminal.js"></script>
   <script src="assets/js/projetos.js"></script>
