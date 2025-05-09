@@ -155,18 +155,25 @@ section#ultima-secao {
                     color: #fff;
                     font-size: 1.1rem;
                 }
-
+                
+                & div.button-content{
+                    display: flex;
+                    margin-top: 6%;
+                    gap: 3.5%;
+                }
                 & div.card-button button {
-                    background: none;
-                    border: none;
-                    color: var(--blue-200);
-                    font-size: 1rem;
-                    transition: .3s;
-
-                    &:hover {
-                        color: var(--blue-400);
-                        cursor: pointer;
-                        transition: .3s;
+                    background: rgba(255, 255, 255, 0.05);
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                        padding: 12px 24px;
+                        border-radius: 50px;
+                        color: white;
+                        text-decoration: none;
+                        font-weight: 500;
+                        transition: all 0.3s ease;
+                    
+                        &:hover {
+                            border-color: rgba(255, 255, 255, 0.3);
+                            background: rgba(255, 255, 255, 0.15);
                     }
                 }
             }
