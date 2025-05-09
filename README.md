@@ -1,21 +1,119 @@
-# Portfólio pessoal versão 2.0
-![Fundo banner](assets/img/eu3.jpg)
-## Descrição geral
-Em um mercado competitivo, um portfólio bem estruturado é essencial para um desenvolvedor de software, pois vai além de um currículo tradicional ao demonstrar habilidades técnicas de forma prática e visual, destacando tecnologias utilizadas, desafios superados e resultados obtidos. Sempre estive ansioso para construir meu próprio portfólio, pois reconheço sua importância na minha evolução profissional, permitindo-me expor projetos de maneira organizada e personalizada, refletindo minha abordagem técnica. Aqui, apresento soluções que evidenciam meu domínio de linguagens, frameworks e boas práticas, abrangendo desde o desenvolvimento de aplicações web até o gerenciamento de bancos de dados e metodologias ágeis, consolidando minha trajetória na área.
+<h1 align="center" style="font-weight: bold;">Portfolio template 💻</h1>
 
-## Tecnologias usadas:
+<p align="center">
+ <a href="#tech">Tecnologias</a> • 
+ <a href="#started">Começando</a> • 
+  <a href="#colab">Colaboradores</a>
+</p>
 
-<img display="inline" align="center" alt="will-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><img display="inline" align="center" alt="will-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><img  display="inline" align="center" alt="will-Jv" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+<p align="center">
+    <b>Este projeto tem como objetivo oferecer uma base pronta para desenvolvedores criarem seus próprios portfólios com facilidade. Ele vai além de um simples currículo, permitindo demonstrar habilidades técnicas de forma prática, visual e interativa — facilitando a visibilidade no mercado e a valorização profissional.</b>
+</p>
 
-## Objetivos
+<p align="center">
+     <a href="https://willruty.github.io/portfolio_template/">📱 Visitar Projeto</a>
+</p>
 
-- [x] Organizar minhas informações pessoais e projetos em um só lugar;
-- [x] Demonstrar de maneira prática meus conhecimentos;
-- [x] Apresentar de maneira dinâmica e criativa como meus conhecimentos se tornam projetos;
-- [ ] Adicionar mais efeitos e outros componentes ao portifólio;
-- [ ] Criar uma página exclusiva para cada projeto;
+<h2 id="layout">🎨 Layout</h2>
 
-## Links
+<p align="center" style="display:flex;">
+    <img src="assets/img/banner.png" alt="Image Example" width="50%">
+    <img src="assets/img/projetos.png" alt="Image Example" width="50%">
+</p>
 
-[Link para demonstração ao vivo](https://willruty.github.io/Portifolio/)
+<h2 id="tech">💻 Tecnologias</h2>
 
+- HTML
+- CSS
+- JavaScript
+- React (ainda será implementado)
+
+<h2 id="started">🚀 Começando</h2>
+
+Esta seção visa orientar como clonar e rodar o projeto
+
+<h3>Pré-requisitos</h3>
+
+Lista de pré-requisitos para o funcionamento do passo a passo:
+
+- [Git](https://git-scm.com/downloads)
+- [VS Code](https://code.visualstudio.com/)
+- Extensão Live Server do VS Code
+
+<h3>📥 Clonando o Projeto</h3>
+
+Para clonar este projeto, siga os passos abaixo:
+
+1. Crie uma pasta em seu computador para armazenar os arquivos.
+2. Abra o VS Code e utilize o atalho <strong>Ctrl + K, depois O</strong> para abrir essa pasta.
+3. Em seguida, abra o terminal integrado com o atalho <strong>Ctrl + `</strong>.
+4. No terminal, execute o comando de clonagem:
+
+```bash
+# iniciando e clonando o repositorio da pagina do github
+git clone https://github.com/willruty/portfolio_template
+```
+
+<h3>🖥 Executando o Projeto</h3>
+
+Este projeto pode ser visualizado localmente com a extensão <strong>Live Server</strong> no VS Code. Para isso:
+
+1. Verifique se o Live Server está instalado no VS Code. [Instalar extensão](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+2. Abra a pasta do projeto no VS Code.
+3. Clique com o botão direito sobre o arquivo <code>index.html</code> e selecione <strong>"Open with Live Server"</strong>.
+4. O navegador será aberto automaticamente com o endereço <code>http://127.0.0.1:5500/</code>.
+
+<h3>Estrutura do projeto</h3>
+
+```bash
+devportfolio-template/
+├── assets/
+│ ├── css/ # Estilos separados e ordenados por seção
+│ │ ├── global.css
+│ │ ├── navbar.css
+│ │ ├── banner.css
+│ │ ├── terminal.css
+│ │ ├── sobre-mim.css
+│ │ ├── stack.css
+│ │ ├── tec_carousel.css
+│ │ ├── ultima_secao.css
+│ │ ├── project_carousel.css
+│ │ ├── contatos.css
+│ │ └── footer.css
+│ ├── img/ # Imagens e recursos visuais
+│ │ ├── projeto1.png
+│ │ ├── projeto2.webp
+│ │ └── foto_de_perfil.png
+│ └── js/ # Scripts JS por seção
+│   ├── navbar.js
+│   ├── terminal.js
+│   ├── stats.js
+│   └── projetos.js
+├── index.html # Página principal do portfólio
+└── README.md # Documentação do projeto
+```
+
+<h2 id="colab">🤝 Colaboradores</h2>
+
+Este projeto é resultado do esforço conjunto de pessoas que uniram criatividade, código e visão para construir algo útil e compartilhável com a comunidade.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/willruty">
+        <img src="assets/img/william_profile.jpg" width="100px;" alt="William Macedo Profile Picture"/><br>
+        <sub>
+          <b>William Rutyna Macedo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Pereszx">
+        <img src="assets/img/kaua_profile.jpg" width="100px;" alt="Kaua Peres Profile Picture"/><br>
+        <sub>
+          <b>Kauã Peres Sudre</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
