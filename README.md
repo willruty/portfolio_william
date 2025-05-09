@@ -17,8 +17,8 @@
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center" style="display:flex;">
-    <img src="assets/img/banner.png" alt="Image Example" width="50%">
-    <img src="assets/img/projetos.png" alt="Image Example" width="50%">
+    <img src="assets/img/banner.png" alt="Image Example" width="80%">
+    <img src="assets/img/projetos.png" alt="Image Example" width="80%">
 </p>
 
 <h2 id="tech">💻 Tecnologias</h2>
@@ -45,8 +45,8 @@ Lista de pré-requisitos para o funcionamento do passo a passo:
 Para clonar este projeto, siga os passos abaixo:
 
 1. Crie uma pasta em seu computador para armazenar os arquivos.
-2. Abra o VS Code e utilize o atalho <strong>Ctrl + K, depois O</strong> para abrir essa pasta.
-3. Em seguida, abra o terminal integrado com o atalho <strong>Ctrl + `</strong>.
+2. Abra o VS Code e utilize o atalho <strong>Ctrl + K + O</strong> para abrir essa pasta.
+3. Em seguida, abra o terminal integrado com o atalho <strong>Ctrl + "</strong>.
 4. No terminal, execute o comando de clonagem:
 
 ```bash
