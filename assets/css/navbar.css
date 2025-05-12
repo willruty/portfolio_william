@@ -171,7 +171,38 @@ button#to-top.ativo {
     transition: 0.5s ease-out;
 }
 
-@media (425px < width < 620px) {
+@media (319px < width < 450.99px) {
+    nav {
+        padding: 10px 10px;
+        margin: 0;
+        height: auto;
+        justify-content: space-around;
+
+        & div#nav-buttons a button {
+            padding: 5px 10px;
+        }
+    }
+
+    nav ul.nav-list {
+        gap: 20px;
+        width: 100%;
+    }
+
+    nav ul.nav-list #links {
+        display: none;
+    }
+
+    nav div#nav-buttons {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: right;
+    }
+
+}
+
+@media (451px < width < 620px) {
     nav {
         padding: 10px 10px;
         margin: 0;
@@ -192,29 +223,6 @@ button#to-top.ativo {
     nav a#logo {
         margin-left: 0;
         margin-bottom: 10px;
-    }
-
-    nav div#nav-buttons {
-        display: none;
-    }
-
-}
-
-@media (319px < width < 425.99px) {
-    nav {
-        padding: 0px 0px;
-        margin: 0;
-        height: auto;
-    }
-
-    nav ul.nav-list {
-        gap: 20px;
-        margin-top: 10px;
-        width: 100%;
-    }
-
-    nav ul.nav-list #links {
-        display: none;
     }
 
     nav div#nav-buttons {

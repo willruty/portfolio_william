@@ -67,3 +67,75 @@ section#banner {
 
     }
 }
+
+@media (319px < width < 450.99px) {
+    section#banner {
+        flex-direction: column;
+        padding-top: 80px;
+
+        & div#profile-img {
+            width: 100%;
+            order: 2;
+
+            & #img-bg img {
+                height: 550px;
+                margin: 30px 30px 0px 30px;
+                border-radius: 15px 15px 0px 0px;
+            }
+        }
+
+        & div#profile-text {
+            width: 100vw;
+            order: 1;
+
+            & #profile-title {
+                width: 100%;
+
+                & h1 {
+                    font-size: 2rem;
+                }
+
+                & p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (451px < width < 1024px) {
+    section#banner {
+        flex-direction: column;
+        padding-top: 80px;
+
+        & div#profile-img {
+            width: 100%;
+            order: 2;
+
+            & #img-bg img {
+                height: 550px;
+                margin: 30px 30px 0px 30px;
+                border-radius: 15px 15px 0px 0px;
+            }
+        }
+
+        & div#profile-text {
+            width: 100vw;
+            order: 1;
+
+            & #profile-title {
+                width: 80%;
+                margin: auto;
+
+                & h1 {
+                    font-size: 2rem;
+                }
+
+                & p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

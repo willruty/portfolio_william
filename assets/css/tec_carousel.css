@@ -35,3 +35,14 @@
         transform: translateX(-50%);
     }
 }
+
+@media (350px < width < 450px) {
+
+    .logo {
+        min-width: 100px;
+        margin: 0 1.5rem;
+        opacity: 0.5;
+        transition: transform 0.3s;
+        font-size: 2rem;
+    }
+}

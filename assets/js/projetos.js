@@ -28,5 +28,3 @@ document.addEventListener("DOMContentLoaded", () => {
         ease: "power3.out"
     });
 });
-
-// Controlando o scroll lateral

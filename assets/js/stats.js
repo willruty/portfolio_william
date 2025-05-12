@@ -35,7 +35,7 @@ function drawPieChart() {
         backgroundColor: '#0D1117',
         legendTextStyle: {
             color: '#fff', // Cor das legendas
-            fontSize: 13
+            fontSize: 10
         },
         chartArea: {
             left: '15%',

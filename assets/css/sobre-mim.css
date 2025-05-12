@@ -135,3 +135,336 @@ section#sobre-mim {
         }
     }
 }
+
+@media (319px < width < 450.99px) {
+    section#sobre-mim {
+
+        & div#sobre-mim-content {
+            width: 100%;
+            height: auto;
+
+            & div#sobre-mim-header {
+                align-items: center;
+                border-top: 1px solid #66666666;
+                box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+                flex-direction: column;
+                justify-content: left;
+
+                & div#sobre-mim-title {
+                    padding: 10px;
+                }
+
+                & div#badges {
+                    padding: 10px;
+                    padding-bottom: 15px;
+                    display: flex;
+                    justify-content: space-evenly;
+
+                    & div.badge {
+                        font-size: .9rem;
+                        letter-spacing: 1.1px;
+                        padding: 10px 15px;
+                    }
+                }
+            }
+
+            & div#sobre-mim-info {
+                border-top: 1px solid #66666666;
+                box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+                display: flex;
+                flex-direction: column;
+                height: auto;
+
+                & h3 {
+                    color: var(--white);
+                    margin: 5px;
+                    font-size: 1.5rem;
+                }
+
+                & ul {
+                    padding: 20px 0 60px 20px;
+
+                    & li {
+                        margin-top: 15px;
+                    }
+                }
+
+                & div#text {
+                    padding: 20px 25px;
+                    color: rgba(255, 255, 255, 0.7);
+                    border-top: 1px solid #66666666;
+
+                    & h3 {
+                        margin: 10px 0;
+                    }
+
+                    & p {
+                        margin: 25px 0px 0px 0px;
+                    }
+                }
+
+                & div#sobre-mim-tecs {
+                    border-top: 1px solid #66666666;
+                    padding: 20px 25px;
+                    width: 100%;
+
+                    & h3 {
+                        margin-bottom: 10px;
+                    }
+
+                    & div#tec-cards {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 20px;
+                        justify-content: space-around;
+                        margin-top: 50px;
+                        width: 100%;
+
+                        & div.small-tec-card {
+                            background: rgba(255, 255, 255, 0.1);
+                            backdrop-filter: blur(15px);
+                            font-size: 1.1rem;
+                            border-radius: 15px;
+                            color: rgba(255, 255, 255, 0.85);
+                            width: 120px;
+                            height: 100px;
+
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            transition: 0.3s;
+
+                            & i {
+                                font-size: 2rem;
+                                margin-bottom: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (451px < width < 768px) {
+    section#sobre-mim {
+
+        & div#sobre-mim-content {
+            width: 100%;
+            height: auto;
+
+            & div#sobre-mim-header {
+                align-items: center;
+                border-top: 1px solid #66666666;
+                box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+                flex-direction: column;
+                justify-content: left;
+
+                & div#sobre-mim-title {
+                    padding: 10px;
+                }
+
+                & div#badges {
+                    padding: 10px;
+                    padding-bottom: 15px;
+                    display: flex;
+                    justify-content: space-evenly;
+
+                    & div.badge {
+                        font-size: .9rem;
+                        letter-spacing: 1.1px;
+                        padding: 10px 15px;
+                    }
+                }
+            }
+
+            & div#sobre-mim-info {
+                border-top: 1px solid #66666666;
+                box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+                display: flex;
+                flex-direction: column;
+                height: auto;
+
+                & h3 {
+                    color: var(--white);
+                    margin: 5px;
+                    font-size: 1.5rem;
+                }
+
+                & ul {
+                    padding: 20px 0 60px 20px;
+
+                    & li {
+                        margin-top: 15px;
+                    }
+                }
+
+                & div#text {
+                    padding: 20px 25px;
+                    color: rgba(255, 255, 255, 0.7);
+                    border-top: 1px solid #66666666;
+
+                    & h3 {
+                        margin: 10px 0;
+                    }
+
+                    & p {
+                        margin: 25px 0px 0px 0px;
+                    }
+                }
+
+                & div#sobre-mim-tecs {
+                    border-top: 1px solid #66666666;
+                    padding: 20px 25px;
+                    width: 100%;
+
+                    & h3 {
+                        margin-bottom: 10px;
+                    }
+
+                    & div#tec-cards {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 20px;
+                        justify-content: space-around;
+                        margin-top: 50px;
+                        width: 100%;
+
+                        & div.small-tec-card {
+                            background: rgba(255, 255, 255, 0.1);
+                            backdrop-filter: blur(15px);
+                            font-size: 1.1rem;
+                            border-radius: 15px;
+                            color: rgba(255, 255, 255, 0.85);
+                            width: 120px;
+                            height: 100px;
+
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            transition: 0.3s;
+
+                            & i {
+                                font-size: 2rem;
+                                margin-bottom: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (768px < width < 1439px) {
+    section#sobre-mim {
+
+        & div#sobre-mim-content {
+            width: 80%;
+            height: auto;
+
+            & div#sobre-mim-header {
+                align-items: center;
+                border-top: 1px solid #66666666;
+                box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+                flex-direction: column;
+                justify-content: left;
+
+                & div#sobre-mim-title {
+                    padding: 10px;
+                }
+
+                & div#badges {
+                    padding: 10px;
+                    padding-bottom: 15px;
+                    display: flex;
+                    justify-content: space-evenly;
+
+                    & div.badge {
+                        font-size: .9rem;
+                        letter-spacing: 1.1px;
+                        padding: 10px 15px;
+                    }
+                }
+            }
+
+            & div#sobre-mim-info {
+                border-top: 1px solid #66666666;
+                box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+                display: flex;
+                flex-direction: column;
+                height: auto;
+
+                & h3 {
+                    color: var(--white);
+                    margin: 5px;
+                    font-size: 1.5rem;
+                }
+
+                & ul {
+                    padding: 20px 0 60px 20px;
+
+                    & li {
+                        margin-top: 15px;
+                    }
+                }
+
+                & div#text {
+                    padding: 20px 25px;
+                    color: rgba(255, 255, 255, 0.7);
+                    border-top: 1px solid #66666666;
+
+                    & h3 {
+                        margin: 10px 0;
+                    }
+
+                    & p {
+                        margin: 25px 0px 0px 0px;
+                    }
+                }
+
+                & div#sobre-mim-tecs {
+                    border-top: 1px solid #66666666;
+                    padding: 20px 25px;
+                    width: 100%;
+
+                    & h3 {
+                        margin-bottom: 10px;
+                    }
+
+                    & div#tec-cards {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 20px;
+                        justify-content: space-around;
+                        margin-top: 50px;
+                        width: 100%;
+
+                        & div.small-tec-card {
+                            background: rgba(255, 255, 255, 0.1);
+                            backdrop-filter: blur(15px);
+                            font-size: 1.1rem;
+                            border-radius: 15px;
+                            color: rgba(255, 255, 255, 0.85);
+                            width: 120px;
+                            height: 100px;
+
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            transition: 0.3s;
+
+                            & i {
+                                font-size: 2rem;
+                                margin-bottom: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
