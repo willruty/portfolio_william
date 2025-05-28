@@ -206,7 +206,8 @@ section#ultima-secao {
 
             & div.card {
                 width: 100%;
-                height: 500px;
+                height: 450px;
+                overflow: hidden;
 
                 & div.description {
                     height: auto;

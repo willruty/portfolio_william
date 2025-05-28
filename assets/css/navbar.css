@@ -63,7 +63,7 @@ nav {
         & a button {
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 12px 24px;
+            padding: 3px 15px;
             border-radius: 50px;
             color: white;
             text-decoration: none;
@@ -113,7 +113,6 @@ nav.ativo {
 
     & div#nav-buttons a button {
         border-color: var(--white);
-        padding: 3px 15px;
         background-color: rgba(255, 255, 255, 0.2);
         border: none;
 
@@ -181,6 +180,11 @@ button#to-top.ativo {
         & div#nav-buttons a button {
             padding: 5px 10px;
         }
+    }
+
+    button#to-top {
+        bottom: 10;
+        right: 10;
     }
 
     nav ul.nav-list {

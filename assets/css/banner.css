@@ -12,7 +12,6 @@ section#banner {
         align-content: end;
 
         & #img-bg {
-            /* box-shadow: 0 0 30px #0089a5, 0 0 40px #090979; */
             background-color: rgba(255, 255, 255, .3);
             background: linear-gradient(to top, var(--blue-400), var(--blue-600), var(--blue-night));
             backdrop-filter: blur(15px);
@@ -22,7 +21,7 @@ section#banner {
             border-radius: 15px 15px 0px 0px;
 
             & img {
-                height: 650px;
+                height: 700px;
                 margin: 30px 30px 0px 30px;
                 border-radius: 15px 15px 0px 0px;
             }
@@ -77,10 +76,14 @@ section#banner {
             width: 100%;
             order: 2;
 
-            & #img-bg img {
-                height: 550px;
-                margin: 30px 30px 0px 30px;
-                border-radius: 15px 15px 0px 0px;
+            & #img-bg {
+                background: linear-gradient(to top, var(--blue-400), var(--blue-600), #00000000);
+
+                & img {
+                    height: 450px;
+                    margin: 40px 30px 0px 30px;
+                    border-radius: 15px 15px 0px 0px;
+                }
             }
         }
 
@@ -90,6 +93,7 @@ section#banner {
 
             & #profile-title {
                 width: 100%;
+                padding: 20px;
 
                 & h1 {
                     font-size: 2rem;

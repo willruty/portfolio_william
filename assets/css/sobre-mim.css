@@ -53,7 +53,7 @@ section#sobre-mim {
             box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
             display: grid;
             grid-template-columns: 1fr 2fr;
-            height: 60%;
+            height: 70%;
 
             & h3 {
                 color: var(--white);
@@ -79,6 +79,7 @@ section#sobre-mim {
                 padding: 20px 25px;
                 color: rgba(255, 255, 255, 0.7);
                 grid-column: 2;
+                overflow: hidden;
 
                 & h3 {
                     margin: 10px 0;
@@ -182,7 +183,7 @@ section#sobre-mim {
                 }
 
                 & ul {
-                    padding: 20px 0 60px 20px;
+                    padding: 20px ;
 
                     & li {
                         margin-top: 15px;
